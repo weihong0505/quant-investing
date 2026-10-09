@@ -1,0 +1,7 @@
+[hand-check] qd=2020-12-31 一致: True
+[hand-check] qd=2022-06-30 一致: True
+[slice-check] qd=2020-12-31 与 regime_weights(截至qd的36m窗口) 等价: True
+[pit-check] 篡改调权日之后 IC 后全部历史权重不变: True
+[short-sample] qd=2018-06-30（<12m 历史）保持基准权重: True
+
+ALL C8 CHECKS PASSED (4/4)

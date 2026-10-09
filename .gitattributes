@@ -1,0 +1,14 @@
+# G:\quant-investing\.gitattributes
+# 建立：2026-09-18
+#
+# 目的：让 git 对本仓库**完全不做行尾/文本转换**，保证入库字节与磁盘字节一致。
+#
+# 为什么必须显式声明：
+#   本机 system 级 git 配置里 core.autocrlf=true（Windows Git 安装器默认），
+#   会把仓库里的 LF 在检出时改写成 CRLF —— 那等于 git 每次碰文件都在改文件。
+#   本库同时存在 LF（规范/索引/日志）与 CRLF（部分 wiki 页面）两种风格，
+#   任何自动转换都会造成整文件 diff，与 FILE-MANAGEMENT-STANDARD 的字节要求冲突。
+#
+# 同时已在本地配置 core.autocrlf=false；本文件是第二道保险（对克隆方也生效）。
+
+* -text

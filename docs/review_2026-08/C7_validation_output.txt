@@ -1,0 +1,22 @@
+G:\quant-investing\code\rolling_stats.py:167: UserWarning: obj.round has no effect with datetime, timedelta, or period dtypes. Use obj.dt.round(...) instead.
+  print(stats.round(4).to_string())
+滚动窗口描述统计 (rolling_stats.py):
+   window_id train_start  train_end test_start   test_end  train_mean  train_sharpe  test_mean  test_sharpe  test_cumret
+0          1  2018-01-31 2020-12-31 2021-01-31 2021-12-31      0.0017        0.1376     0.0123       0.7965       0.1403
+1          2  2019-01-31 2021-12-31 2022-01-31 2022-12-31      0.0032        0.2295     0.0146       1.5115       0.1825
+2          3  2020-01-31 2022-12-31 2023-01-31 2023-12-31      0.0038        0.2860    -0.0169      -1.3815      -0.1926
+3          4  2021-01-31 2023-12-31 2024-01-31 2024-12-31      0.0033        0.2571     0.0079       0.7281       0.0907
+4          5  2022-01-31 2024-12-31 2025-01-31 2025-12-31      0.0019        0.1653     0.0074       0.9046       0.0877
+
+汇总(统计量 + 证据强度分级):
+  windows: 5
+  oos_months: 60
+  oos_win_rate: 0.8
+  oos_cum_return: 0.29157060043686056
+  train_test_consistency: 0.8
+  verdict: weak
+  power_warning: 样本功效警示: 项目实测 90 月回测检出功效仅 20.3%（3% 超额 @ TE10%，见 backtest_engineering_spec 审查）; 本汇总 OOS 仅 60 月（5 窗 × 12 月），证据强度 weak 只描述统计充分性，不构成策略有效/无效判定; 引用本报告任何统计量时必须同时声明此样本功效限制。
+
+一次确认制: {'train_mean': np.float64(0.0064), 'test_mean': np.float64(-0.0005), 'confirmed': False, 'rule': '确认失败 → 降级观察，禁止回训重报（一次确认制）'}
+
+冒烟测试通过: 滚动窗口统计正常输出; 衰减策略被一次确认制正确拦截; verdict 为证据强度分级(无通过/观察判定), 附 20.3% 功效警示

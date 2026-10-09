@@ -1,0 +1,25 @@
+[PASS] ④ NW-t == statsmodels HAC (n=120, rho=0.3)  diff=6.66e-16
+[PASS] ④ NW-t == statsmodels HAC (n=60, rho=0.0)  diff=8.88e-16
+[PASS] ④ NW-t == statsmodels HAC (n=36, rho=0.5)  diff=2.22e-16
+[PASS] 带宽 N=60 -> lag 3  got 3
+[PASS] 带宽 N=120 -> lag 4  got 4
+[PASS] 重叠收益 max(3, 公式值)  20->3, 120->4
+[PASS] bonf(1) = 1.6449 (单因子不收紧)  1.644854
+[PASS] bonf(37) ~= 2.9997 恰达主线 (max(3.0,·)=3.0 无缝衔接)  2.999672
+[PASS] bonf(38) > 3.0 自动收紧  3.007787
+[PASS] ① 强正 IC: signed_t >= 3.0  signed_t=7.484 (NW-t=7.484)
+[PASS] ① 判定 = 通过  主判定线通过: signed NW-t >= max(3.0, Bonferroni)
+[PASS] ② 纯噪声: |signed_t| < 3.0  signed_t=0.251
+[PASS] ② 判定 != 通过  level=观察 (主判定线未达线: signed NW-t < max(3.0, Bonferroni))
+[PASS] ③ 反向强 IC: signed_t <= -3.0  signed_t=-9.354 (NW-t=-9.354)
+[PASS] ③ 判定 = 淘汰（反向强因子）  反向强因子: signed_t <= -3.0（符号与预登记相反）
+[PASS] ③ 对照: expected_sign=-1 时同一序列判通过  主判定线通过: signed NW-t >= max(3.0, Bonferroni)
+[PASS] ⑤ report 含 nw_t / signed_t 列  columns=['factor', 'n', 'ic_mean', 'ic_std', 'icir', 'win_rate', 'naive_t', 'nw_t', 'signed_t', 'level', 'alert', 'evidence']
+[PASS] ⑤ report: true = 通过  通过
+[PASS] ⑤ report: reverse = 淘汰  淘汰
+[PASS] ⑤ report: noise != 通过  淘汰
+[PASS] ⑤ report 按 signed_t 降序  
+[PASS] ⑤ 冒烟测试 exit 0  ok
+
+===== SUMMARY =====
+PASS=22/22  FAIL=0

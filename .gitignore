@@ -1,0 +1,35 @@
+# 本机 Obsidian 工作区状态（含 Local REST API 凭据，绝不入库）
+.obsidian/
+**/.obsidian/
+
+# 本地模型库（可再生产物，20GB 级）
+ai/
+
+# 数据库与缓存（大二进制、可再生）
+*.db
+*.db-wal
+*.db-shm
+*.parquet
+data/cache/
+
+# 输出与临时产物
+output/
+_*
+!wiki/_archive/
+
+# 凭据
+*.env
+.env
+*.key
+*.pem
+.credentials*
+secrets/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# 系统杂物
+Thumbs.db
+desktop.ini
+.DS_Store

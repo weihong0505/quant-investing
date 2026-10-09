@@ -1,0 +1,1030 @@
+[01:16:14 INFO] [启动] run.py 入口开始 mode=VALUE(价值投资) top_n=12 experimental=True
+[01:16:22 WARNING]   [retry 1/2] spot_em(industry): ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+[01:16:30 WARNING]   [retry 2/2] spot_em(industry): ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+[01:16:30 WARNING]   [indmap] 实时 spot_em 不可用: RuntimeError: spot_em(industry) failed after 2 retries
+[01:16:30 INFO]   [indmap] 数据源: yjbb缓存 yjbb_20260630_20260630.parquet (申万二级口径) | 行业数 124 | 映射 124 | 覆盖率 100.0% | 未映射 0: []
+[01:16:30 INFO] [行情] 缓存命中 (sina): 5548 只
+[01:16:30 WARNING]   [hist] 东财 920000 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:16:31 WARNING]   [hist] 新浪 920000 失败: KeyError: 'date'
+[01:16:31 ERROR]   [hist] 920000 所有数据源均失败
+[01:16:31 WARNING]   [hist] 东财 920001 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:16:31 WARNING]   [hist] 新浪 920001 失败: KeyError: 'date'
+[01:16:31 ERROR]   [hist] 920001 所有数据源均失败
+[01:16:32 WARNING]   [hist] 东财 920002 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:16:32 WARNING]   [hist] 新浪 920002 失败: KeyError: 'date'
+[01:16:32 ERROR]   [hist] 920002 所有数据源均失败
+[01:16:33 WARNING]   [hist] 东财 920003 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:16:33 WARNING]   [hist] 新浪 920003 失败: KeyError: 'date'
+[01:16:33 ERROR]   [hist] 920003 所有数据源均失败
+[01:16:34 WARNING]   [hist] 东财 920005 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:16:34 WARNING]   [hist] 新浪 920005 失败: KeyError: 'date'
+[01:16:34 ERROR]   [hist] 920005 所有数据源均失败
+[01:16:35 WARNING]   [hist] 东财 920006 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:16:35 WARNING]   [hist] 新浪 920006 失败: KeyError: 'date'
+[01:16:35 ERROR]   [hist] 920006 所有数据源均失败
+[01:16:36 WARNING]   [hist] 东财 920007 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:16:36 WARNING]   [hist] 新浪 920007 失败: KeyError: 'date'
+[01:16:37 ERROR]   [hist] 920007 所有数据源均失败
+[01:16:37 WARNING]   [hist] 东财 920008 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:16:37 WARNING]   [hist] 新浪 920008 失败: KeyError: 'date'
+[01:16:37 ERROR]   [hist] 920008 所有数据源均失败
+[01:16:38 WARNING]   [hist] 东财 920009 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:16:38 WARNING]   [hist] 新浪 920009 失败: KeyError: 'date'
+[01:16:38 ERROR]   [hist] 920009 所有数据源均失败
+[01:16:39 WARNING]   [hist] 东财 920010 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:16:40 WARNING]   [hist] 新浪 920010 失败: KeyError: 'date'
+[01:16:40 ERROR]   [hist] 920010 所有数据源均失败
+[01:16:40 WARNING]   [hist] 东财 920011 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:16:40 WARNING]   [hist] 新浪 920011 失败: KeyError: 'date'
+[01:16:40 ERROR]   [hist] 920011 所有数据源均失败
+[01:16:41 WARNING]   [hist] 东财 920012 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:16:41 WARNING]   [hist] 新浪 920012 失败: KeyError: 'date'
+[01:16:41 ERROR]   [hist] 920012 所有数据源均失败
+[01:16:42 WARNING]   [hist] 东财 920014 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:16:42 WARNING]   [hist] 新浪 920014 失败: KeyError: 'date'
+[01:16:42 ERROR]   [hist] 920014 所有数据源均失败
+[01:16:43 WARNING]   [hist] 东财 920015 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:16:43 WARNING]   [hist] 新浪 920015 失败: KeyError: 'date'
+[01:16:43 ERROR]   [hist] 920015 所有数据源均失败
+[01:16:44 WARNING]   [hist] 东财 920016 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:16:44 WARNING]   [hist] 新浪 920016 失败: KeyError: 'date'
+[01:16:44 ERROR]   [hist] 920016 所有数据源均失败
+[01:16:45 WARNING]   [hist] 东财 920017 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:16:45 WARNING]   [hist] 新浪 920017 失败: KeyError: 'date'
+[01:16:45 ERROR]   [hist] 920017 所有数据源均失败
+[01:16:46 WARNING]   [hist] 东财 920018 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:16:46 WARNING]   [hist] 新浪 920018 失败: KeyError: 'date'
+[01:16:46 ERROR]   [hist] 920018 所有数据源均失败
+[01:16:47 WARNING]   [hist] 东财 920019 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:16:47 WARNING]   [hist] 新浪 920019 失败: KeyError: 'date'
+[01:16:47 ERROR]   [hist] 920019 所有数据源均失败
+[01:16:48 WARNING]   [hist] 东财 920020 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:16:48 WARNING]   [hist] 新浪 920020 失败: KeyError: 'date'
+[01:16:48 ERROR]   [hist] 920020 所有数据源均失败
+[01:16:49 WARNING]   [hist] 东财 920021 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:16:49 WARNING]   [hist] 新浪 920021 失败: KeyError: 'date'
+[01:16:49 ERROR]   [hist] 920021 所有数据源均失败
+[01:16:50 WARNING]   [hist] 东财 920022 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:16:50 WARNING]   [hist] 新浪 920022 失败: KeyError: 'date'
+[01:16:50 ERROR]   [hist] 920022 所有数据源均失败
+[01:16:51 WARNING]   [hist] 东财 920023 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:16:51 WARNING]   [hist] 新浪 920023 失败: KeyError: 'date'
+[01:16:51 ERROR]   [hist] 920023 所有数据源均失败
+[01:16:52 WARNING]   [hist] 东财 920026 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:16:52 WARNING]   [hist] 新浪 920026 失败: KeyError: 'date'
+[01:16:52 ERROR]   [hist] 920026 所有数据源均失败
+[01:16:53 WARNING]   [hist] 东财 920027 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:16:53 WARNING]   [hist] 新浪 920027 失败: KeyError: 'date'
+[01:16:53 ERROR]   [hist] 920027 所有数据源均失败
+[01:16:54 WARNING]   [hist] 东财 920028 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:16:54 WARNING]   [hist] 新浪 920028 失败: KeyError: 'date'
+[01:16:54 ERROR]   [hist] 920028 所有数据源均失败
+[01:16:55 WARNING]   [hist] 东财 920029 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:16:55 WARNING]   [hist] 新浪 920029 失败: KeyError: 'date'
+[01:16:55 ERROR]   [hist] 920029 所有数据源均失败
+[01:16:56 WARNING]   [hist] 东财 920030 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:16:56 WARNING]   [hist] 新浪 920030 失败: KeyError: 'date'
+[01:16:56 ERROR]   [hist] 920030 所有数据源均失败
+[01:16:57 WARNING]   [hist] 东财 920033 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:16:58 WARNING]   [hist] 新浪 920033 失败: KeyError: 'date'
+[01:16:58 ERROR]   [hist] 920033 所有数据源均失败
+[01:16:58 WARNING]   [hist] 东财 920035 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:16:58 WARNING]   [hist] 新浪 920035 失败: KeyError: 'date'
+[01:16:58 ERROR]   [hist] 920035 所有数据源均失败
+[01:16:59 WARNING]   [hist] 东财 920036 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:16:59 WARNING]   [hist] 新浪 920036 失败: KeyError: 'date'
+[01:16:59 ERROR]   [hist] 920036 所有数据源均失败
+[01:17:00 WARNING]   [hist] 东财 920037 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:17:01 WARNING]   [hist] 新浪 920037 失败: KeyError: 'date'
+[01:17:01 ERROR]   [hist] 920037 所有数据源均失败
+[01:17:01 WARNING]   [hist] 东财 920038 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:17:02 WARNING]   [hist] 新浪 920038 失败: KeyError: 'date'
+[01:17:02 ERROR]   [hist] 920038 所有数据源均失败
+[01:17:02 WARNING]   [hist] 东财 920039 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:17:03 WARNING]   [hist] 新浪 920039 失败: KeyError: 'date'
+[01:17:03 ERROR]   [hist] 920039 所有数据源均失败
+[01:17:03 WARNING]   [hist] 东财 920045 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:17:03 WARNING]   [hist] 新浪 920045 失败: KeyError: 'date'
+[01:17:03 ERROR]   [hist] 920045 所有数据源均失败
+[01:17:04 WARNING]   [hist] 东财 920046 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:17:04 WARNING]   [hist] 新浪 920046 失败: KeyError: 'date'
+[01:17:04 ERROR]   [hist] 920046 所有数据源均失败
+[01:17:05 WARNING]   [hist] 东财 920047 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:17:05 WARNING]   [hist] 新浪 920047 失败: KeyError: 'date'
+[01:17:05 ERROR]   [hist] 920047 所有数据源均失败
+[01:17:06 WARNING]   [hist] 东财 920050 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:17:06 WARNING]   [hist] 新浪 920050 失败: KeyError: 'date'
+[01:17:06 ERROR]   [hist] 920050 所有数据源均失败
+[01:17:07 WARNING]   [hist] 东财 920055 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:17:08 WARNING]   [hist] 新浪 920055 失败: KeyError: 'date'
+[01:17:08 ERROR]   [hist] 920055 所有数据源均失败
+[01:17:08 WARNING]   [hist] 东财 920056 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:17:09 WARNING]   [hist] 新浪 920056 失败: KeyError: 'date'
+[01:17:09 ERROR]   [hist] 920056 所有数据源均失败
+[01:17:09 WARNING]   [hist] 东财 920057 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:17:10 WARNING]   [hist] 新浪 920057 失败: KeyError: 'date'
+[01:17:10 ERROR]   [hist] 920057 所有数据源均失败
+[01:17:10 WARNING]   [hist] 东财 920058 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:17:10 WARNING]   [hist] 新浪 920058 失败: KeyError: 'date'
+[01:17:10 ERROR]   [hist] 920058 所有数据源均失败
+[01:17:11 WARNING]   [hist] 东财 920059 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:17:11 WARNING]   [hist] 新浪 920059 失败: KeyError: 'date'
+[01:17:11 ERROR]   [hist] 920059 所有数据源均失败
+[01:17:12 WARNING]   [hist] 东财 920060 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:17:13 WARNING]   [hist] 新浪 920060 失败: KeyError: 'date'
+[01:17:13 ERROR]   [hist] 920060 所有数据源均失败
+[01:17:13 WARNING]   [hist] 东财 920061 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:17:13 WARNING]   [hist] 新浪 920061 失败: KeyError: 'date'
+[01:17:13 ERROR]   [hist] 920061 所有数据源均失败
+[01:17:14 WARNING]   [hist] 东财 920062 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:17:14 WARNING]   [hist] 新浪 920062 失败: KeyError: 'date'
+[01:17:14 ERROR]   [hist] 920062 所有数据源均失败
+[01:17:15 WARNING]   [hist] 东财 920065 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:17:16 WARNING]   [hist] 新浪 920065 失败: KeyError: 'date'
+[01:17:16 ERROR]   [hist] 920065 所有数据源均失败
+[01:17:16 WARNING]   [hist] 东财 920066 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:17:16 WARNING]   [hist] 新浪 920066 失败: KeyError: 'date'
+[01:17:16 ERROR]   [hist] 920066 所有数据源均失败
+[01:17:17 WARNING]   [hist] 东财 920068 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:17:17 WARNING]   [hist] 新浪 920068 失败: KeyError: 'date'
+[01:17:17 ERROR]   [hist] 920068 所有数据源均失败
+[01:17:18 WARNING]   [hist] 东财 920069 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:17:18 WARNING]   [hist] 新浪 920069 失败: KeyError: 'date'
+[01:17:18 ERROR]   [hist] 920069 所有数据源均失败
+[01:17:19 WARNING]   [hist] 东财 920072 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:17:19 WARNING]   [hist] 新浪 920072 失败: KeyError: 'date'
+[01:17:19 ERROR]   [hist] 920072 所有数据源均失败
+[01:17:20 WARNING]   [hist] 东财 920075 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:17:21 WARNING]   [hist] 新浪 920075 失败: KeyError: 'date'
+[01:17:21 ERROR]   [hist] 920075 所有数据源均失败
+[01:17:21 WARNING]   [hist] 东财 920076 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:17:21 WARNING]   [hist] 新浪 920076 失败: KeyError: 'date'
+[01:17:21 ERROR]   [hist] 920076 所有数据源均失败
+[01:17:22 WARNING]   [hist] 东财 920077 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:17:22 WARNING]   [hist] 新浪 920077 失败: KeyError: 'date'
+[01:17:22 ERROR]   [hist] 920077 所有数据源均失败
+[01:17:23 WARNING]   [hist] 东财 920078 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:17:23 WARNING]   [hist] 新浪 920078 失败: KeyError: 'date'
+[01:17:23 ERROR]   [hist] 920078 所有数据源均失败
+[01:17:24 WARNING]   [hist] 东财 920079 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:17:24 WARNING]   [hist] 新浪 920079 失败: KeyError: 'date'
+[01:17:24 ERROR]   [hist] 920079 所有数据源均失败
+[01:17:25 WARNING]   [hist] 东财 920080 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:17:25 WARNING]   [hist] 新浪 920080 失败: KeyError: 'date'
+[01:17:25 ERROR]   [hist] 920080 所有数据源均失败
+[01:17:26 WARNING]   [hist] 东财 920081 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:17:27 WARNING]   [hist] 新浪 920081 失败: KeyError: 'date'
+[01:17:27 ERROR]   [hist] 920081 所有数据源均失败
+[01:17:27 WARNING]   [hist] 东财 920082 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:17:28 WARNING]   [hist] 新浪 920082 失败: KeyError: 'date'
+[01:17:28 ERROR]   [hist] 920082 所有数据源均失败
+[01:17:28 WARNING]   [hist] 东财 920083 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:17:29 WARNING]   [hist] 新浪 920083 失败: KeyError: 'date'
+[01:17:29 ERROR]   [hist] 920083 所有数据源均失败
+[01:17:29 WARNING]   [hist] 东财 920086 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:17:29 WARNING]   [hist] 新浪 920086 失败: KeyError: 'date'
+[01:17:29 ERROR]   [hist] 920086 所有数据源均失败
+[01:17:30 WARNING]   [hist] 东财 920087 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:17:30 WARNING]   [hist] 新浪 920087 失败: KeyError: 'date'
+[01:17:30 ERROR]   [hist] 920087 所有数据源均失败
+[01:17:31 WARNING]   [hist] 东财 920088 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:17:31 WARNING]   [hist] 新浪 920088 失败: KeyError: 'date'
+[01:17:32 ERROR]   [hist] 920088 所有数据源均失败
+[01:17:32 WARNING]   [hist] 东财 920089 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:17:32 WARNING]   [hist] 新浪 920089 失败: KeyError: 'date'
+[01:17:32 ERROR]   [hist] 920089 所有数据源均失败
+[01:17:33 WARNING]   [hist] 东财 920090 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:17:33 WARNING]   [hist] 新浪 920090 失败: KeyError: 'date'
+[01:17:33 ERROR]   [hist] 920090 所有数据源均失败
+[01:17:34 WARNING]   [hist] 东财 920091 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:17:34 WARNING]   [hist] 新浪 920091 失败: KeyError: 'date'
+[01:17:34 ERROR]   [hist] 920091 所有数据源均失败
+[01:17:35 WARNING]   [hist] 东财 920092 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:17:35 WARNING]   [hist] 新浪 920092 失败: KeyError: 'date'
+[01:17:35 ERROR]   [hist] 920092 所有数据源均失败
+[01:17:36 WARNING]   [hist] 东财 920093 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:17:37 WARNING]   [hist] 新浪 920093 失败: KeyError: 'date'
+[01:17:37 ERROR]   [hist] 920093 所有数据源均失败
+[01:17:37 WARNING]   [hist] 东财 920096 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:17:38 WARNING]   [hist] 新浪 920096 失败: KeyError: 'date'
+[01:17:38 ERROR]   [hist] 920096 所有数据源均失败
+[01:17:38 WARNING]   [hist] 东财 920098 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:17:38 WARNING]   [hist] 新浪 920098 失败: KeyError: 'date'
+[01:17:38 ERROR]   [hist] 920098 所有数据源均失败
+[01:17:39 WARNING]   [hist] 东财 920099 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:17:40 WARNING]   [hist] 新浪 920099 失败: KeyError: 'date'
+[01:17:40 ERROR]   [hist] 920099 所有数据源均失败
+[01:17:40 WARNING]   [hist] 东财 920100 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:17:40 WARNING]   [hist] 新浪 920100 失败: KeyError: 'date'
+[01:17:40 ERROR]   [hist] 920100 所有数据源均失败
+[01:17:41 WARNING]   [hist] 东财 920101 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:17:41 WARNING]   [hist] 新浪 920101 失败: KeyError: 'date'
+[01:17:41 ERROR]   [hist] 920101 所有数据源均失败
+[01:17:42 WARNING]   [hist] 东财 920106 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:17:42 WARNING]   [hist] 新浪 920106 失败: KeyError: 'date'
+[01:17:42 ERROR]   [hist] 920106 所有数据源均失败
+[01:17:43 WARNING]   [hist] 东财 920107 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:17:44 WARNING]   [hist] 新浪 920107 失败: KeyError: 'date'
+[01:17:44 ERROR]   [hist] 920107 所有数据源均失败
+[01:17:44 WARNING]   [hist] 东财 920108 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:17:44 WARNING]   [hist] 新浪 920108 失败: KeyError: 'date'
+[01:17:44 ERROR]   [hist] 920108 所有数据源均失败
+[01:17:45 WARNING]   [hist] 东财 920110 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:17:46 WARNING]   [hist] 新浪 920110 失败: KeyError: 'date'
+[01:17:46 ERROR]   [hist] 920110 所有数据源均失败
+[01:17:46 WARNING]   [hist] 东财 920111 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:17:46 WARNING]   [hist] 新浪 920111 失败: KeyError: 'date'
+[01:17:46 ERROR]   [hist] 920111 所有数据源均失败
+[01:17:47 WARNING]   [hist] 东财 920112 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:17:48 WARNING]   [hist] 新浪 920112 失败: KeyError: 'date'
+[01:17:48 ERROR]   [hist] 920112 所有数据源均失败
+[01:17:48 WARNING]   [hist] 东财 920116 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:17:49 WARNING]   [hist] 新浪 920116 失败: KeyError: 'date'
+[01:17:49 ERROR]   [hist] 920116 所有数据源均失败
+[01:17:49 WARNING]   [hist] 东财 920117 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:17:50 WARNING]   [hist] 新浪 920117 失败: KeyError: 'date'
+[01:17:50 ERROR]   [hist] 920117 所有数据源均失败
+[01:17:50 WARNING]   [hist] 东财 920118 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:17:51 WARNING]   [hist] 新浪 920118 失败: KeyError: 'date'
+[01:17:51 ERROR]   [hist] 920118 所有数据源均失败
+[01:17:51 WARNING]   [hist] 东财 920119 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:17:51 WARNING]   [hist] 新浪 920119 失败: KeyError: 'date'
+[01:17:51 ERROR]   [hist] 920119 所有数据源均失败
+[01:17:52 WARNING]   [hist] 东财 920121 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:17:53 WARNING]   [hist] 新浪 920121 失败: KeyError: 'date'
+[01:17:53 ERROR]   [hist] 920121 所有数据源均失败
+[01:17:53 WARNING]   [hist] 东财 920122 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:17:53 WARNING]   [hist] 新浪 920122 失败: KeyError: 'date'
+[01:17:53 ERROR]   [hist] 920122 所有数据源均失败
+[01:17:54 WARNING]   [hist] 东财 920123 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:17:54 WARNING]   [hist] 新浪 920123 失败: KeyError: 'date'
+[01:17:54 ERROR]   [hist] 920123 所有数据源均失败
+[01:17:55 WARNING]   [hist] 东财 920124 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:17:55 WARNING]   [hist] 新浪 920124 失败: KeyError: 'date'
+[01:17:55 ERROR]   [hist] 920124 所有数据源均失败
+[01:17:56 WARNING]   [hist] 东财 920125 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:17:57 WARNING]   [hist] 新浪 920125 失败: KeyError: 'date'
+[01:17:57 ERROR]   [hist] 920125 所有数据源均失败
+[01:17:57 WARNING]   [hist] 东财 920126 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:17:58 WARNING]   [hist] 新浪 920126 失败: KeyError: 'date'
+[01:17:58 ERROR]   [hist] 920126 所有数据源均失败
+[01:17:58 WARNING]   [hist] 东财 920128 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:17:58 WARNING]   [hist] 新浪 920128 失败: KeyError: 'date'
+[01:17:58 ERROR]   [hist] 920128 所有数据源均失败
+[01:17:59 WARNING]   [hist] 东财 920130 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:17:59 WARNING]   [hist] 新浪 920130 失败: KeyError: 'date'
+[01:17:59 ERROR]   [hist] 920130 所有数据源均失败
+[01:18:00 WARNING]   [hist] 东财 920132 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:18:01 WARNING]   [hist] 新浪 920132 失败: KeyError: 'date'
+[01:18:01 ERROR]   [hist] 920132 所有数据源均失败
+[01:18:01 WARNING]   [hist] 东财 920136 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:18:02 WARNING]   [hist] 新浪 920136 失败: KeyError: 'date'
+[01:18:02 ERROR]   [hist] 920136 所有数据源均失败
+[01:18:02 WARNING]   [hist] 东财 920138 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:18:02 WARNING]   [hist] 新浪 920138 失败: KeyError: 'date'
+[01:18:02 ERROR]   [hist] 920138 所有数据源均失败
+[01:18:03 WARNING]   [hist] 东财 920139 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:18:04 WARNING]   [hist] 新浪 920139 失败: KeyError: 'date'
+[01:18:04 ERROR]   [hist] 920139 所有数据源均失败
+[01:18:04 WARNING]   [hist] 东财 920145 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:18:04 WARNING]   [hist] 新浪 920145 失败: KeyError: 'date'
+[01:18:04 ERROR]   [hist] 920145 所有数据源均失败
+[01:18:05 WARNING]   [hist] 东财 920146 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:18:05 WARNING]   [hist] 新浪 920146 失败: KeyError: 'date'
+[01:18:05 ERROR]   [hist] 920146 所有数据源均失败
+[01:18:06 WARNING]   [hist] 东财 920149 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:18:07 WARNING]   [hist] 新浪 920149 失败: KeyError: 'date'
+[01:18:07 ERROR]   [hist] 920149 所有数据源均失败
+[01:18:07 WARNING]   [hist] 东财 920152 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:18:07 WARNING]   [hist] 新浪 920152 失败: KeyError: 'date'
+[01:18:07 ERROR]   [hist] 920152 所有数据源均失败
+[01:18:08 WARNING]   [hist] 东财 920156 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:18:08 WARNING]   [hist] 新浪 920156 失败: KeyError: 'date'
+[01:18:08 ERROR]   [hist] 920156 所有数据源均失败
+[01:18:09 WARNING]   [hist] 东财 920158 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:18:09 WARNING]   [hist] 新浪 920158 失败: KeyError: 'date'
+[01:18:09 ERROR]   [hist] 920158 所有数据源均失败
+[01:18:10 WARNING]   [hist] 东财 920159 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:18:10 WARNING]   [hist] 新浪 920159 失败: KeyError: 'date'
+[01:18:10 ERROR]   [hist] 920159 所有数据源均失败
+[01:18:11 WARNING]   [hist] 东财 920160 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:18:12 WARNING]   [hist] 新浪 920160 失败: KeyError: 'date'
+[01:18:12 ERROR]   [hist] 920160 所有数据源均失败
+[01:18:12 WARNING]   [hist] 东财 920161 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:18:13 WARNING]   [hist] 新浪 920161 失败: KeyError: 'date'
+[01:18:13 ERROR]   [hist] 920161 所有数据源均失败
+[01:18:13 WARNING]   [hist] 东财 920163 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:18:14 WARNING]   [hist] 新浪 920163 失败: KeyError: 'date'
+[01:18:14 ERROR]   [hist] 920163 所有数据源均失败
+[01:18:14 WARNING]   [hist] 东财 920165 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:18:14 WARNING]   [hist] 新浪 920165 失败: KeyError: 'date'
+[01:18:14 ERROR]   [hist] 920165 所有数据源均失败
+[01:18:15 WARNING]   [hist] 东财 920166 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:18:15 WARNING]   [hist] 新浪 920166 失败: KeyError: 'date'
+[01:18:15 ERROR]   [hist] 920166 所有数据源均失败
+[01:18:16 WARNING]   [hist] 东财 920167 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:18:17 WARNING]   [hist] 新浪 920167 失败: KeyError: 'date'
+[01:18:17 ERROR]   [hist] 920167 所有数据源均失败
+[01:18:17 WARNING]   [hist] 东财 920168 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:18:18 WARNING]   [hist] 新浪 920168 失败: KeyError: 'date'
+[01:18:18 ERROR]   [hist] 920168 所有数据源均失败
+[01:18:18 WARNING]   [hist] 东财 920169 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:18:18 WARNING]   [hist] 新浪 920169 失败: KeyError: 'date'
+[01:18:18 ERROR]   [hist] 920169 所有数据源均失败
+[01:18:19 WARNING]   [hist] 东财 920171 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:18:19 WARNING]   [hist] 新浪 920171 失败: KeyError: 'date'
+[01:18:19 ERROR]   [hist] 920171 所有数据源均失败
+[01:18:20 WARNING]   [hist] 东财 920174 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:18:21 WARNING]   [hist] 新浪 920174 失败: KeyError: 'date'
+[01:18:21 ERROR]   [hist] 920174 所有数据源均失败
+[01:18:21 WARNING]   [hist] 东财 920175 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:18:22 WARNING]   [hist] 新浪 920175 失败: KeyError: 'date'
+[01:18:22 ERROR]   [hist] 920175 所有数据源均失败
+[01:18:22 WARNING]   [hist] 东财 920176 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:18:22 WARNING]   [hist] 新浪 920176 失败: KeyError: 'date'
+[01:18:22 ERROR]   [hist] 920176 所有数据源均失败
+[01:18:23 WARNING]   [hist] 东财 920177 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:18:24 WARNING]   [hist] 新浪 920177 失败: KeyError: 'date'
+[01:18:24 ERROR]   [hist] 920177 所有数据源均失败
+[01:18:24 WARNING]   [hist] 东财 920178 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:18:25 WARNING]   [hist] 新浪 920178 失败: KeyError: 'date'
+[01:18:25 ERROR]   [hist] 920178 所有数据源均失败
+[01:18:25 WARNING]   [hist] 东财 920179 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:18:26 WARNING]   [hist] 新浪 920179 失败: KeyError: 'date'
+[01:18:26 ERROR]   [hist] 920179 所有数据源均失败
+[01:18:26 WARNING]   [hist] 东财 920180 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:18:26 WARNING]   [hist] 新浪 920180 失败: KeyError: 'date'
+[01:18:26 ERROR]   [hist] 920180 所有数据源均失败
+[01:18:27 WARNING]   [hist] 东财 920181 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:18:28 WARNING]   [hist] 新浪 920181 失败: KeyError: 'date'
+[01:18:28 ERROR]   [hist] 920181 所有数据源均失败
+[01:18:28 WARNING]   [hist] 东财 920183 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:18:28 WARNING]   [hist] 新浪 920183 失败: KeyError: 'date'
+[01:18:28 ERROR]   [hist] 920183 所有数据源均失败
+[01:18:29 WARNING]   [hist] 东财 920184 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:18:29 WARNING]   [hist] 新浪 920184 失败: KeyError: 'date'
+[01:18:29 ERROR]   [hist] 920184 所有数据源均失败
+[01:18:30 WARNING]   [hist] 东财 920185 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:18:30 WARNING]   [hist] 新浪 920185 失败: KeyError: 'date'
+[01:18:30 ERROR]   [hist] 920185 所有数据源均失败
+[01:18:31 WARNING]   [hist] 东财 920186 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:18:31 WARNING]   [hist] 新浪 920186 失败: KeyError: 'date'
+[01:18:31 ERROR]   [hist] 920186 所有数据源均失败
+[01:18:32 WARNING]   [hist] 东财 920187 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:18:32 WARNING]   [hist] 新浪 920187 失败: KeyError: 'date'
+[01:18:32 ERROR]   [hist] 920187 所有数据源均失败
+[01:18:33 WARNING]   [hist] 东财 920188 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:18:33 WARNING]   [hist] 新浪 920188 失败: KeyError: 'date'
+[01:18:33 ERROR]   [hist] 920188 所有数据源均失败
+[01:18:34 WARNING]   [hist] 东财 920189 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:18:35 WARNING]   [hist] 新浪 920189 失败: KeyError: 'date'
+[01:18:35 ERROR]   [hist] 920189 所有数据源均失败
+[01:18:35 WARNING]   [hist] 东财 920190 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:18:36 WARNING]   [hist] 新浪 920190 失败: KeyError: 'date'
+[01:18:36 ERROR]   [hist] 920190 所有数据源均失败
+[01:18:36 WARNING]   [hist] 东财 920191 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:18:37 WARNING]   [hist] 新浪 920191 失败: KeyError: 'date'
+[01:18:37 ERROR]   [hist] 920191 所有数据源均失败
+[01:18:37 WARNING]   [hist] 东财 920193 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:18:38 WARNING]   [hist] 新浪 920193 失败: KeyError: 'date'
+[01:18:38 ERROR]   [hist] 920193 所有数据源均失败
+[01:18:38 WARNING]   [hist] 东财 920195 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:18:39 WARNING]   [hist] 新浪 920195 失败: KeyError: 'date'
+[01:18:39 ERROR]   [hist] 920195 所有数据源均失败
+[01:18:39 WARNING]   [hist] 东财 920198 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:18:39 WARNING]   [hist] 新浪 920198 失败: KeyError: 'date'
+[01:18:39 ERROR]   [hist] 920198 所有数据源均失败
+[01:18:40 WARNING]   [hist] 东财 920199 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:18:41 WARNING]   [hist] 新浪 920199 失败: KeyError: 'date'
+[01:18:41 ERROR]   [hist] 920199 所有数据源均失败
+[01:18:41 WARNING]   [hist] 东财 920200 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:18:41 WARNING]   [hist] 新浪 920200 失败: KeyError: 'date'
+[01:18:41 ERROR]   [hist] 920200 所有数据源均失败
+[01:18:42 WARNING]   [hist] 东财 920204 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:18:42 WARNING]   [hist] 新浪 920204 失败: KeyError: 'date'
+[01:18:42 ERROR]   [hist] 920204 所有数据源均失败
+[01:18:43 WARNING]   [hist] 东财 920206 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:18:43 WARNING]   [hist] 新浪 920206 失败: KeyError: 'date'
+[01:18:43 ERROR]   [hist] 920206 所有数据源均失败
+[01:18:44 WARNING]   [hist] 东财 920207 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:18:45 WARNING]   [hist] 新浪 920207 失败: KeyError: 'date'
+[01:18:45 ERROR]   [hist] 920207 所有数据源均失败
+[01:18:45 WARNING]   [hist] 东财 920208 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:18:46 WARNING]   [hist] 新浪 920208 失败: KeyError: 'date'
+[01:18:46 ERROR]   [hist] 920208 所有数据源均失败
+[01:18:46 WARNING]   [hist] 东财 920211 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:18:47 WARNING]   [hist] 新浪 920211 失败: KeyError: 'date'
+[01:18:47 ERROR]   [hist] 920211 所有数据源均失败
+[01:18:47 WARNING]   [hist] 东财 920212 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:18:48 WARNING]   [hist] 新浪 920212 失败: KeyError: 'date'
+[01:18:48 ERROR]   [hist] 920212 所有数据源均失败
+[01:18:48 WARNING]   [hist] 东财 920218 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:18:49 WARNING]   [hist] 新浪 920218 失败: KeyError: 'date'
+[01:18:49 ERROR]   [hist] 920218 所有数据源均失败
+[01:18:49 WARNING]   [hist] 东财 920220 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:18:50 WARNING]   [hist] 新浪 920220 失败: KeyError: 'date'
+[01:18:50 ERROR]   [hist] 920220 所有数据源均失败
+[01:18:50 WARNING]   [hist] 东财 920221 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:18:51 WARNING]   [hist] 新浪 920221 失败: KeyError: 'date'
+[01:18:51 ERROR]   [hist] 920221 所有数据源均失败
+[01:18:51 WARNING]   [hist] 东财 920222 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:18:52 WARNING]   [hist] 新浪 920222 失败: KeyError: 'date'
+[01:18:52 ERROR]   [hist] 920222 所有数据源均失败
+[01:18:52 WARNING]   [hist] 东财 920223 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:18:53 WARNING]   [hist] 新浪 920223 失败: KeyError: 'date'
+[01:18:53 ERROR]   [hist] 920223 所有数据源均失败
+[01:18:53 WARNING]   [hist] 东财 920225 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:18:54 WARNING]   [hist] 新浪 920225 失败: KeyError: 'date'
+[01:18:54 ERROR]   [hist] 920225 所有数据源均失败
+[01:18:54 WARNING]   [hist] 东财 920227 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:18:55 WARNING]   [hist] 新浪 920227 失败: KeyError: 'date'
+[01:18:55 ERROR]   [hist] 920227 所有数据源均失败
+[01:18:55 WARNING]   [hist] 东财 920230 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:18:56 WARNING]   [hist] 新浪 920230 失败: KeyError: 'date'
+[01:18:56 ERROR]   [hist] 920230 所有数据源均失败
+[01:18:56 WARNING]   [hist] 东财 920237 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:18:57 WARNING]   [hist] 新浪 920237 失败: KeyError: 'date'
+[01:18:57 ERROR]   [hist] 920237 所有数据源均失败
+[01:18:57 WARNING]   [hist] 东财 920238 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:18:58 WARNING]   [hist] 新浪 920238 失败: KeyError: 'date'
+[01:18:58 ERROR]   [hist] 920238 所有数据源均失败
+[01:18:58 WARNING]   [hist] 东财 920239 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:18:59 WARNING]   [hist] 新浪 920239 失败: KeyError: 'date'
+[01:18:59 ERROR]   [hist] 920239 所有数据源均失败
+[01:18:59 WARNING]   [hist] 东财 920242 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:19:00 WARNING]   [hist] 新浪 920242 失败: KeyError: 'date'
+[01:19:00 ERROR]   [hist] 920242 所有数据源均失败
+[01:19:00 WARNING]   [hist] 东财 920245 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:19:01 WARNING]   [hist] 新浪 920245 失败: KeyError: 'date'
+[01:19:01 ERROR]   [hist] 920245 所有数据源均失败
+[01:19:01 WARNING]   [hist] 东财 920247 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:19:02 WARNING]   [hist] 新浪 920247 失败: KeyError: 'date'
+[01:19:02 ERROR]   [hist] 920247 所有数据源均失败
+[01:19:02 WARNING]   [hist] 东财 920249 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:19:03 WARNING]   [hist] 新浪 920249 失败: KeyError: 'date'
+[01:19:03 ERROR]   [hist] 920249 所有数据源均失败
+[01:19:03 WARNING]   [hist] 东财 920252 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:19:04 WARNING]   [hist] 新浪 920252 失败: KeyError: 'date'
+[01:19:04 ERROR]   [hist] 920252 所有数据源均失败
+[01:19:04 WARNING]   [hist] 东财 920258 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:19:05 WARNING]   [hist] 新浪 920258 失败: KeyError: 'date'
+[01:19:05 ERROR]   [hist] 920258 所有数据源均失败
+[01:19:05 WARNING]   [hist] 东财 920260 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:19:06 WARNING]   [hist] 新浪 920260 失败: KeyError: 'date'
+[01:19:06 ERROR]   [hist] 920260 所有数据源均失败
+[01:19:06 WARNING]   [hist] 东财 920261 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:19:07 WARNING]   [hist] 新浪 920261 失败: KeyError: 'date'
+[01:19:07 ERROR]   [hist] 920261 所有数据源均失败
+[01:19:07 WARNING]   [hist] 东财 920262 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:19:08 WARNING]   [hist] 新浪 920262 失败: KeyError: 'date'
+[01:19:08 ERROR]   [hist] 920262 所有数据源均失败
+[01:19:08 WARNING]   [hist] 东财 920263 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:19:09 WARNING]   [hist] 新浪 920263 失败: KeyError: 'date'
+[01:19:09 ERROR]   [hist] 920263 所有数据源均失败
+[01:19:09 WARNING]   [hist] 东财 920266 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:19:10 WARNING]   [hist] 新浪 920266 失败: KeyError: 'date'
+[01:19:10 ERROR]   [hist] 920266 所有数据源均失败
+[01:19:10 WARNING]   [hist] 东财 920267 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:19:11 WARNING]   [hist] 新浪 920267 失败: KeyError: 'date'
+[01:19:11 ERROR]   [hist] 920267 所有数据源均失败
+[01:19:11 WARNING]   [hist] 东财 920270 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:19:12 WARNING]   [hist] 新浪 920270 失败: KeyError: 'date'
+[01:19:12 ERROR]   [hist] 920270 所有数据源均失败
+[01:19:12 WARNING]   [hist] 东财 920271 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:19:13 WARNING]   [hist] 新浪 920271 失败: KeyError: 'date'
+[01:19:13 ERROR]   [hist] 920271 所有数据源均失败
+[01:19:13 WARNING]   [hist] 东财 920273 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:19:14 WARNING]   [hist] 新浪 920273 失败: KeyError: 'date'
+[01:19:14 ERROR]   [hist] 920273 所有数据源均失败
+[01:19:14 WARNING]   [hist] 东财 920274 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:19:15 WARNING]   [hist] 新浪 920274 失败: KeyError: 'date'
+[01:19:15 ERROR]   [hist] 920274 所有数据源均失败
+[01:19:15 WARNING]   [hist] 东财 920275 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:19:16 WARNING]   [hist] 新浪 920275 失败: KeyError: 'date'
+[01:19:16 ERROR]   [hist] 920275 所有数据源均失败
+[01:19:16 WARNING]   [hist] 东财 920278 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:19:17 WARNING]   [hist] 新浪 920278 失败: KeyError: 'date'
+[01:19:17 ERROR]   [hist] 920278 所有数据源均失败
+[01:19:17 WARNING]   [hist] 东财 920284 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:19:18 WARNING]   [hist] 新浪 920284 失败: KeyError: 'date'
+[01:19:18 ERROR]   [hist] 920284 所有数据源均失败
+[01:19:18 WARNING]   [hist] 东财 920299 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:19:19 WARNING]   [hist] 新浪 920299 失败: KeyError: 'date'
+[01:19:19 ERROR]   [hist] 920299 所有数据源均失败
+[01:19:20 WARNING]   [hist] 东财 920300 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:19:20 WARNING]   [hist] 新浪 920300 失败: KeyError: 'date'
+[01:19:20 ERROR]   [hist] 920300 所有数据源均失败
+[01:19:20 WARNING]   [hist] 东财 920304 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:19:21 WARNING]   [hist] 新浪 920304 失败: KeyError: 'date'
+[01:19:21 ERROR]   [hist] 920304 所有数据源均失败
+[01:19:21 WARNING]   [hist] 东财 920339 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:19:22 WARNING]   [hist] 新浪 920339 失败: KeyError: 'date'
+[01:19:22 ERROR]   [hist] 920339 所有数据源均失败
+[01:19:22 WARNING]   [hist] 东财 920344 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:19:23 WARNING]   [hist] 新浪 920344 失败: KeyError: 'date'
+[01:19:23 ERROR]   [hist] 920344 所有数据源均失败
+[01:19:23 WARNING]   [hist] 东财 920346 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:19:24 WARNING]   [hist] 新浪 920346 失败: KeyError: 'date'
+[01:19:24 ERROR]   [hist] 920346 所有数据源均失败
+[01:19:24 WARNING]   [hist] 东财 920351 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:19:25 WARNING]   [hist] 新浪 920351 失败: KeyError: 'date'
+[01:19:25 ERROR]   [hist] 920351 所有数据源均失败
+[01:19:25 WARNING]   [hist] 东财 920357 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:19:26 WARNING]   [hist] 新浪 920357 失败: KeyError: 'date'
+[01:19:26 ERROR]   [hist] 920357 所有数据源均失败
+[01:19:27 WARNING]   [hist] 东财 920363 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:19:27 WARNING]   [hist] 新浪 920363 失败: KeyError: 'date'
+[01:19:27 ERROR]   [hist] 920363 所有数据源均失败
+[01:19:28 WARNING]   [hist] 东财 920367 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:19:29 WARNING]   [hist] 新浪 920367 失败: KeyError: 'date'
+[01:19:29 ERROR]   [hist] 920367 所有数据源均失败
+[01:19:29 WARNING]   [hist] 东财 920368 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:19:30 WARNING]   [hist] 新浪 920368 失败: KeyError: 'date'
+[01:19:30 ERROR]   [hist] 920368 所有数据源均失败
+[01:19:30 WARNING]   [hist] 东财 920370 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:19:31 WARNING]   [hist] 新浪 920370 失败: KeyError: 'date'
+[01:19:31 ERROR]   [hist] 920370 所有数据源均失败
+[01:19:31 WARNING]   [hist] 东财 920371 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:19:32 WARNING]   [hist] 新浪 920371 失败: KeyError: 'date'
+[01:19:32 ERROR]   [hist] 920371 所有数据源均失败
+[01:19:32 WARNING]   [hist] 东财 920374 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:19:33 WARNING]   [hist] 新浪 920374 失败: KeyError: 'date'
+[01:19:33 ERROR]   [hist] 920374 所有数据源均失败
+[01:19:33 WARNING]   [hist] 东财 920375 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:19:34 WARNING]   [hist] 新浪 920375 失败: KeyError: 'date'
+[01:19:34 ERROR]   [hist] 920375 所有数据源均失败
+[01:19:34 WARNING]   [hist] 东财 920378 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:19:35 WARNING]   [hist] 新浪 920378 失败: KeyError: 'date'
+[01:19:35 ERROR]   [hist] 920378 所有数据源均失败
+[01:19:35 WARNING]   [hist] 东财 920392 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:19:36 WARNING]   [hist] 新浪 920392 失败: KeyError: 'date'
+[01:19:36 ERROR]   [hist] 920392 所有数据源均失败
+[01:19:36 WARNING]   [hist] 东财 920394 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:19:37 WARNING]   [hist] 新浪 920394 失败: KeyError: 'date'
+[01:19:37 ERROR]   [hist] 920394 所有数据源均失败
+[01:19:37 WARNING]   [hist] 东财 920395 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:19:38 WARNING]   [hist] 新浪 920395 失败: KeyError: 'date'
+[01:19:38 ERROR]   [hist] 920395 所有数据源均失败
+[01:19:38 WARNING]   [hist] 东财 920396 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:19:39 WARNING]   [hist] 新浪 920396 失败: KeyError: 'date'
+[01:19:39 ERROR]   [hist] 920396 所有数据源均失败
+[01:19:39 WARNING]   [hist] 东财 920402 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:19:40 WARNING]   [hist] 新浪 920402 失败: KeyError: 'date'
+[01:19:40 ERROR]   [hist] 920402 所有数据源均失败
+[01:19:40 WARNING]   [hist] 东财 920403 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:19:41 WARNING]   [hist] 新浪 920403 失败: KeyError: 'date'
+[01:19:41 ERROR]   [hist] 920403 所有数据源均失败
+[01:19:41 WARNING]   [hist] 东财 920405 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:19:42 WARNING]   [hist] 新浪 920405 失败: KeyError: 'date'
+[01:19:42 ERROR]   [hist] 920405 所有数据源均失败
+[01:19:42 WARNING]   [hist] 东财 920407 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:19:43 WARNING]   [hist] 新浪 920407 失败: KeyError: 'date'
+[01:19:43 ERROR]   [hist] 920407 所有数据源均失败
+[01:19:43 WARNING]   [hist] 东财 920414 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:19:43 WARNING]   [hist] 新浪 920414 失败: KeyError: 'date'
+[01:19:43 ERROR]   [hist] 920414 所有数据源均失败
+[01:19:44 WARNING]   [hist] 东财 920415 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:19:45 WARNING]   [hist] 新浪 920415 失败: KeyError: 'date'
+[01:19:45 ERROR]   [hist] 920415 所有数据源均失败
+[01:19:45 WARNING]   [hist] 东财 920418 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:19:46 WARNING]   [hist] 新浪 920418 失败: KeyError: 'date'
+[01:19:46 ERROR]   [hist] 920418 所有数据源均失败
+[01:19:46 WARNING]   [hist] 东财 920419 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:19:47 WARNING]   [hist] 新浪 920419 失败: KeyError: 'date'
+[01:19:47 ERROR]   [hist] 920419 所有数据源均失败
+[01:19:47 WARNING]   [hist] 东财 920422 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:19:48 WARNING]   [hist] 新浪 920422 失败: KeyError: 'date'
+[01:19:48 ERROR]   [hist] 920422 所有数据源均失败
+[01:19:48 WARNING]   [hist] 东财 920425 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:19:49 WARNING]   [hist] 新浪 920425 失败: KeyError: 'date'
+[01:19:49 ERROR]   [hist] 920425 所有数据源均失败
+[01:19:49 WARNING]   [hist] 东财 920427 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:19:50 WARNING]   [hist] 新浪 920427 失败: KeyError: 'date'
+[01:19:50 ERROR]   [hist] 920427 所有数据源均失败
+[01:19:50 WARNING]   [hist] 东财 920429 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:19:51 WARNING]   [hist] 新浪 920429 失败: KeyError: 'date'
+[01:19:51 ERROR]   [hist] 920429 所有数据源均失败
+[01:19:51 WARNING]   [hist] 东财 920433 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:19:52 WARNING]   [hist] 新浪 920433 失败: KeyError: 'date'
+[01:19:52 ERROR]   [hist] 920433 所有数据源均失败
+[01:19:52 WARNING]   [hist] 东财 920436 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:19:53 WARNING]   [hist] 新浪 920436 失败: KeyError: 'date'
+[01:19:53 ERROR]   [hist] 920436 所有数据源均失败
+[01:19:53 WARNING]   [hist] 东财 920438 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:19:54 WARNING]   [hist] 新浪 920438 失败: KeyError: 'date'
+[01:19:54 ERROR]   [hist] 920438 所有数据源均失败
+[01:19:54 WARNING]   [hist] 东财 920445 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:19:55 WARNING]   [hist] 新浪 920445 失败: KeyError: 'date'
+[01:19:55 ERROR]   [hist] 920445 所有数据源均失败
+[01:19:55 WARNING]   [hist] 东财 920454 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:19:56 WARNING]   [hist] 新浪 920454 失败: KeyError: 'date'
+[01:19:56 ERROR]   [hist] 920454 所有数据源均失败
+[01:19:56 WARNING]   [hist] 东财 920455 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:19:57 WARNING]   [hist] 新浪 920455 失败: KeyError: 'date'
+[01:19:57 ERROR]   [hist] 920455 所有数据源均失败
+[01:19:57 WARNING]   [hist] 东财 920469 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:19:58 WARNING]   [hist] 新浪 920469 失败: KeyError: 'date'
+[01:19:58 ERROR]   [hist] 920469 所有数据源均失败
+[01:19:58 WARNING]   [hist] 东财 920471 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:19:59 WARNING]   [hist] 新浪 920471 失败: KeyError: 'date'
+[01:19:59 ERROR]   [hist] 920471 所有数据源均失败
+[01:19:59 WARNING]   [hist] 东财 920475 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:20:00 WARNING]   [hist] 新浪 920475 失败: KeyError: 'date'
+[01:20:00 ERROR]   [hist] 920475 所有数据源均失败
+[01:20:00 WARNING]   [hist] 东财 920476 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:20:01 WARNING]   [hist] 新浪 920476 失败: KeyError: 'date'
+[01:20:01 ERROR]   [hist] 920476 所有数据源均失败
+[01:20:01 WARNING]   [hist] 东财 920478 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:20:02 WARNING]   [hist] 新浪 920478 失败: KeyError: 'date'
+[01:20:02 ERROR]   [hist] 920478 所有数据源均失败
+[01:20:02 WARNING]   [hist] 东财 920489 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:20:03 WARNING]   [hist] 新浪 920489 失败: KeyError: 'date'
+[01:20:03 ERROR]   [hist] 920489 所有数据源均失败
+[01:20:03 WARNING]   [hist] 东财 920491 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:20:04 WARNING]   [hist] 新浪 920491 失败: KeyError: 'date'
+[01:20:04 ERROR]   [hist] 920491 所有数据源均失败
+[01:20:04 WARNING]   [hist] 东财 920493 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:20:05 WARNING]   [hist] 新浪 920493 失败: KeyError: 'date'
+[01:20:05 ERROR]   [hist] 920493 所有数据源均失败
+[01:20:05 WARNING]   [hist] 东财 920496 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:20:06 WARNING]   [hist] 新浪 920496 失败: KeyError: 'date'
+[01:20:06 ERROR]   [hist] 920496 所有数据源均失败
+[01:20:06 WARNING]   [hist] 东财 920504 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:20:07 WARNING]   [hist] 新浪 920504 失败: KeyError: 'date'
+[01:20:07 ERROR]   [hist] 920504 所有数据源均失败
+[01:20:07 WARNING]   [hist] 东财 920505 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:20:08 WARNING]   [hist] 新浪 920505 失败: KeyError: 'date'
+[01:20:08 ERROR]   [hist] 920505 所有数据源均失败
+[01:20:08 WARNING]   [hist] 东财 920508 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:20:09 WARNING]   [hist] 新浪 920508 失败: KeyError: 'date'
+[01:20:09 ERROR]   [hist] 920508 所有数据源均失败
+[01:20:09 WARNING]   [hist] 东财 920509 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:20:10 WARNING]   [hist] 新浪 920509 失败: KeyError: 'date'
+[01:20:10 ERROR]   [hist] 920509 所有数据源均失败
+[01:20:10 WARNING]   [hist] 东财 920510 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:20:11 WARNING]   [hist] 新浪 920510 失败: KeyError: 'date'
+[01:20:11 ERROR]   [hist] 920510 所有数据源均失败
+[01:20:11 WARNING]   [hist] 东财 920519 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:20:12 WARNING]   [hist] 新浪 920519 失败: KeyError: 'date'
+[01:20:12 ERROR]   [hist] 920519 所有数据源均失败
+[01:20:12 WARNING]   [hist] 东财 920522 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:20:13 WARNING]   [hist] 新浪 920522 失败: KeyError: 'date'
+[01:20:13 ERROR]   [hist] 920522 所有数据源均失败
+[01:20:13 WARNING]   [hist] 东财 920523 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:20:14 WARNING]   [hist] 新浪 920523 失败: KeyError: 'date'
+[01:20:14 ERROR]   [hist] 920523 所有数据源均失败
+[01:20:14 WARNING]   [hist] 东财 920526 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:20:15 WARNING]   [hist] 新浪 920526 失败: KeyError: 'date'
+[01:20:15 ERROR]   [hist] 920526 所有数据源均失败
+[01:20:15 WARNING]   [hist] 东财 920527 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:20:16 WARNING]   [hist] 新浪 920527 失败: KeyError: 'date'
+[01:20:16 ERROR]   [hist] 920527 所有数据源均失败
+[01:20:16 WARNING]   [hist] 东财 920533 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:20:17 WARNING]   [hist] 新浪 920533 失败: KeyError: 'date'
+[01:20:17 ERROR]   [hist] 920533 所有数据源均失败
+[01:20:17 WARNING]   [hist] 东财 920541 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:20:18 WARNING]   [hist] 新浪 920541 失败: KeyError: 'date'
+[01:20:18 ERROR]   [hist] 920541 所有数据源均失败
+[01:20:18 WARNING]   [hist] 东财 920547 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:20:19 WARNING]   [hist] 新浪 920547 失败: KeyError: 'date'
+[01:20:19 ERROR]   [hist] 920547 所有数据源均失败
+[01:20:19 WARNING]   [hist] 东财 920553 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:20:20 WARNING]   [hist] 新浪 920553 失败: KeyError: 'date'
+[01:20:20 ERROR]   [hist] 920553 所有数据源均失败
+[01:20:20 WARNING]   [hist] 东财 920556 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:20:21 WARNING]   [hist] 新浪 920556 失败: KeyError: 'date'
+[01:20:21 ERROR]   [hist] 920556 所有数据源均失败
+[01:20:21 WARNING]   [hist] 东财 920564 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:20:22 WARNING]   [hist] 新浪 920564 失败: KeyError: 'date'
+[01:20:22 ERROR]   [hist] 920564 所有数据源均失败
+[01:20:22 WARNING]   [hist] 东财 920566 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:20:23 WARNING]   [hist] 新浪 920566 失败: KeyError: 'date'
+[01:20:23 ERROR]   [hist] 920566 所有数据源均失败
+[01:20:23 WARNING]   [hist] 东财 920570 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:20:24 WARNING]   [hist] 新浪 920570 失败: KeyError: 'date'
+[01:20:24 ERROR]   [hist] 920570 所有数据源均失败
+[01:20:24 WARNING]   [hist] 东财 920571 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:20:25 WARNING]   [hist] 新浪 920571 失败: KeyError: 'date'
+[01:20:25 ERROR]   [hist] 920571 所有数据源均失败
+[01:20:25 WARNING]   [hist] 东财 920575 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:20:26 WARNING]   [hist] 新浪 920575 失败: KeyError: 'date'
+[01:20:26 ERROR]   [hist] 920575 所有数据源均失败
+[01:20:26 WARNING]   [hist] 东财 920576 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:20:27 WARNING]   [hist] 新浪 920576 失败: KeyError: 'date'
+[01:20:27 ERROR]   [hist] 920576 所有数据源均失败
+[01:20:27 WARNING]   [hist] 东财 920578 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:20:28 WARNING]   [hist] 新浪 920578 失败: KeyError: 'date'
+[01:20:28 ERROR]   [hist] 920578 所有数据源均失败
+[01:20:28 WARNING]   [hist] 东财 920579 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:20:29 WARNING]   [hist] 新浪 920579 失败: KeyError: 'date'
+[01:20:29 ERROR]   [hist] 920579 所有数据源均失败
+[01:20:29 WARNING]   [hist] 东财 920580 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:20:30 WARNING]   [hist] 新浪 920580 失败: KeyError: 'date'
+[01:20:30 ERROR]   [hist] 920580 所有数据源均失败
+[01:20:30 WARNING]   [hist] 东财 920592 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:20:31 WARNING]   [hist] 新浪 920592 失败: KeyError: 'date'
+[01:20:31 ERROR]   [hist] 920592 所有数据源均失败
+[01:20:31 WARNING]   [hist] 东财 920593 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:20:32 WARNING]   [hist] 新浪 920593 失败: KeyError: 'date'
+[01:20:32 ERROR]   [hist] 920593 所有数据源均失败
+[01:20:32 WARNING]   [hist] 东财 920599 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:20:33 WARNING]   [hist] 新浪 920599 失败: KeyError: 'date'
+[01:20:33 ERROR]   [hist] 920599 所有数据源均失败
+[01:20:33 WARNING]   [hist] 东财 920608 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:20:34 WARNING]   [hist] 新浪 920608 失败: KeyError: 'date'
+[01:20:34 ERROR]   [hist] 920608 所有数据源均失败
+[01:20:34 WARNING]   [hist] 东财 920627 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:20:35 WARNING]   [hist] 新浪 920627 失败: KeyError: 'date'
+[01:20:35 ERROR]   [hist] 920627 所有数据源均失败
+[01:20:35 WARNING]   [hist] 东财 920634 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:20:36 WARNING]   [hist] 新浪 920634 失败: KeyError: 'date'
+[01:20:36 ERROR]   [hist] 920634 所有数据源均失败
+[01:20:36 WARNING]   [hist] 东财 920639 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:20:37 WARNING]   [hist] 新浪 920639 失败: KeyError: 'date'
+[01:20:37 ERROR]   [hist] 920639 所有数据源均失败
+[01:20:37 WARNING]   [hist] 东财 920640 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:20:38 WARNING]   [hist] 新浪 920640 失败: KeyError: 'date'
+[01:20:38 ERROR]   [hist] 920640 所有数据源均失败
+[01:20:38 WARNING]   [hist] 东财 920641 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:20:39 WARNING]   [hist] 新浪 920641 失败: KeyError: 'date'
+[01:20:39 ERROR]   [hist] 920641 所有数据源均失败
+[01:20:39 WARNING]   [hist] 东财 920642 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:20:40 WARNING]   [hist] 新浪 920642 失败: KeyError: 'date'
+[01:20:40 ERROR]   [hist] 920642 所有数据源均失败
+[01:20:40 WARNING]   [hist] 东财 920651 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:20:41 WARNING]   [hist] 新浪 920651 失败: KeyError: 'date'
+[01:20:41 ERROR]   [hist] 920651 所有数据源均失败
+[01:20:41 WARNING]   [hist] 东财 920656 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:20:42 WARNING]   [hist] 新浪 920656 失败: KeyError: 'date'
+[01:20:42 ERROR]   [hist] 920656 所有数据源均失败
+[01:20:42 WARNING]   [hist] 东财 920662 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:20:43 WARNING]   [hist] 新浪 920662 失败: KeyError: 'date'
+[01:20:43 ERROR]   [hist] 920662 所有数据源均失败
+[01:20:43 WARNING]   [hist] 东财 920663 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:20:44 WARNING]   [hist] 新浪 920663 失败: KeyError: 'date'
+[01:20:44 ERROR]   [hist] 920663 所有数据源均失败
+[01:20:44 WARNING]   [hist] 东财 920665 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:20:45 WARNING]   [hist] 新浪 920665 失败: KeyError: 'date'
+[01:20:45 ERROR]   [hist] 920665 所有数据源均失败
+[01:20:45 WARNING]   [hist] 东财 920670 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:20:46 WARNING]   [hist] 新浪 920670 失败: KeyError: 'date'
+[01:20:46 ERROR]   [hist] 920670 所有数据源均失败
+[01:20:46 WARNING]   [hist] 东财 920675 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:20:47 WARNING]   [hist] 新浪 920675 失败: KeyError: 'date'
+[01:20:47 ERROR]   [hist] 920675 所有数据源均失败
+[01:20:47 WARNING]   [hist] 东财 920679 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:20:48 WARNING]   [hist] 新浪 920679 失败: KeyError: 'date'
+[01:20:48 ERROR]   [hist] 920679 所有数据源均失败
+[01:20:48 WARNING]   [hist] 东财 920682 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:20:49 WARNING]   [hist] 新浪 920682 失败: KeyError: 'date'
+[01:20:49 ERROR]   [hist] 920682 所有数据源均失败
+[01:20:49 WARNING]   [hist] 东财 920685 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:20:50 WARNING]   [hist] 新浪 920685 失败: KeyError: 'date'
+[01:20:50 ERROR]   [hist] 920685 所有数据源均失败
+[01:20:50 WARNING]   [hist] 东财 920689 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:20:51 WARNING]   [hist] 新浪 920689 失败: KeyError: 'date'
+[01:20:51 ERROR]   [hist] 920689 所有数据源均失败
+[01:20:51 WARNING]   [hist] 东财 920690 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:20:52 WARNING]   [hist] 新浪 920690 失败: KeyError: 'date'
+[01:20:52 ERROR]   [hist] 920690 所有数据源均失败
+[01:20:52 WARNING]   [hist] 东财 920693 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:20:53 WARNING]   [hist] 新浪 920693 失败: KeyError: 'date'
+[01:20:53 ERROR]   [hist] 920693 所有数据源均失败
+[01:20:53 WARNING]   [hist] 东财 920694 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:20:54 WARNING]   [hist] 新浪 920694 失败: KeyError: 'date'
+[01:20:54 ERROR]   [hist] 920694 所有数据源均失败
+[01:20:54 WARNING]   [hist] 东财 920699 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:20:55 WARNING]   [hist] 新浪 920699 失败: KeyError: 'date'
+[01:20:55 ERROR]   [hist] 920699 所有数据源均失败
+[01:20:55 WARNING]   [hist] 东财 920701 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:20:56 WARNING]   [hist] 新浪 920701 失败: KeyError: 'date'
+[01:20:56 ERROR]   [hist] 920701 所有数据源均失败
+[01:20:56 WARNING]   [hist] 东财 920703 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:20:57 WARNING]   [hist] 新浪 920703 失败: KeyError: 'date'
+[01:20:57 ERROR]   [hist] 920703 所有数据源均失败
+[01:20:57 WARNING]   [hist] 东财 920706 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:20:58 WARNING]   [hist] 新浪 920706 失败: KeyError: 'date'
+[01:20:58 ERROR]   [hist] 920706 所有数据源均失败
+[01:20:58 WARNING]   [hist] 东财 920717 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:20:59 WARNING]   [hist] 新浪 920717 失败: KeyError: 'date'
+[01:20:59 ERROR]   [hist] 920717 所有数据源均失败
+[01:20:59 WARNING]   [hist] 东财 920718 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:21:00 WARNING]   [hist] 新浪 920718 失败: KeyError: 'date'
+[01:21:00 ERROR]   [hist] 920718 所有数据源均失败
+[01:21:00 WARNING]   [hist] 东财 920719 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:21:01 WARNING]   [hist] 新浪 920719 失败: KeyError: 'date'
+[01:21:01 ERROR]   [hist] 920719 所有数据源均失败
+[01:21:01 WARNING]   [hist] 东财 920720 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:21:02 WARNING]   [hist] 新浪 920720 失败: KeyError: 'date'
+[01:21:02 ERROR]   [hist] 920720 所有数据源均失败
+[01:21:02 WARNING]   [hist] 东财 920725 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:21:03 WARNING]   [hist] 新浪 920725 失败: KeyError: 'date'
+[01:21:03 ERROR]   [hist] 920725 所有数据源均失败
+[01:21:03 WARNING]   [hist] 东财 920726 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:21:04 WARNING]   [hist] 新浪 920726 失败: KeyError: 'date'
+[01:21:04 ERROR]   [hist] 920726 所有数据源均失败
+[01:21:04 WARNING]   [hist] 东财 920729 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:21:05 WARNING]   [hist] 新浪 920729 失败: KeyError: 'date'
+[01:21:05 ERROR]   [hist] 920729 所有数据源均失败
+[01:21:05 WARNING]   [hist] 东财 920735 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:21:06 WARNING]   [hist] 新浪 920735 失败: KeyError: 'date'
+[01:21:06 ERROR]   [hist] 920735 所有数据源均失败
+[01:21:06 WARNING]   [hist] 东财 920748 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:21:07 WARNING]   [hist] 新浪 920748 失败: KeyError: 'date'
+[01:21:07 ERROR]   [hist] 920748 所有数据源均失败
+[01:21:07 WARNING]   [hist] 东财 920751 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:21:08 WARNING]   [hist] 新浪 920751 失败: KeyError: 'date'
+[01:21:08 ERROR]   [hist] 920751 所有数据源均失败
+[01:21:08 WARNING]   [hist] 东财 920753 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:21:09 WARNING]   [hist] 新浪 920753 失败: KeyError: 'date'
+[01:21:09 ERROR]   [hist] 920753 所有数据源均失败
+[01:21:09 WARNING]   [hist] 东财 920765 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:21:10 WARNING]   [hist] 新浪 920765 失败: KeyError: 'date'
+[01:21:10 ERROR]   [hist] 920765 所有数据源均失败
+[01:21:10 WARNING]   [hist] 东财 920768 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:21:11 WARNING]   [hist] 新浪 920768 失败: KeyError: 'date'
+[01:21:11 ERROR]   [hist] 920768 所有数据源均失败
+[01:21:11 WARNING]   [hist] 东财 920770 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:21:12 WARNING]   [hist] 新浪 920770 失败: KeyError: 'date'
+[01:21:12 ERROR]   [hist] 920770 所有数据源均失败
+[01:21:12 WARNING]   [hist] 东财 920779 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:21:13 WARNING]   [hist] 新浪 920779 失败: KeyError: 'date'
+[01:21:13 ERROR]   [hist] 920779 所有数据源均失败
+[01:21:13 WARNING]   [hist] 东财 920781 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:21:14 WARNING]   [hist] 新浪 920781 失败: KeyError: 'date'
+[01:21:14 ERROR]   [hist] 920781 所有数据源均失败
+[01:21:14 WARNING]   [hist] 东财 920786 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:21:15 WARNING]   [hist] 新浪 920786 失败: KeyError: 'date'
+[01:21:15 ERROR]   [hist] 920786 所有数据源均失败
+[01:21:15 WARNING]   [hist] 东财 920790 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:21:16 WARNING]   [hist] 新浪 920790 失败: KeyError: 'date'
+[01:21:16 ERROR]   [hist] 920790 所有数据源均失败
+[01:21:16 WARNING]   [hist] 东财 920792 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:21:17 WARNING]   [hist] 新浪 920792 失败: KeyError: 'date'
+[01:21:17 ERROR]   [hist] 920792 所有数据源均失败
+[01:21:17 WARNING]   [hist] 东财 920799 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:21:18 WARNING]   [hist] 新浪 920799 失败: KeyError: 'date'
+[01:21:18 ERROR]   [hist] 920799 所有数据源均失败
+[01:21:18 WARNING]   [hist] 东财 920802 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:21:19 WARNING]   [hist] 新浪 920802 失败: KeyError: 'date'
+[01:21:19 ERROR]   [hist] 920802 所有数据源均失败
+[01:21:19 WARNING]   [hist] 东财 920806 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:21:20 WARNING]   [hist] 新浪 920806 失败: KeyError: 'date'
+[01:21:20 ERROR]   [hist] 920806 所有数据源均失败
+[01:21:20 WARNING]   [hist] 东财 920807 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:21:21 WARNING]   [hist] 新浪 920807 失败: KeyError: 'date'
+[01:21:21 ERROR]   [hist] 920807 所有数据源均失败
+[01:21:21 WARNING]   [hist] 东财 920808 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:21:22 WARNING]   [hist] 新浪 920808 失败: KeyError: 'date'
+[01:21:22 ERROR]   [hist] 920808 所有数据源均失败
+[01:21:22 WARNING]   [hist] 东财 920809 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:21:23 WARNING]   [hist] 新浪 920809 失败: KeyError: 'date'
+[01:21:23 ERROR]   [hist] 920809 所有数据源均失败
+[01:21:23 WARNING]   [hist] 东财 920810 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:21:24 WARNING]   [hist] 新浪 920810 失败: KeyError: 'date'
+[01:21:24 ERROR]   [hist] 920810 所有数据源均失败
+[01:21:24 WARNING]   [hist] 东财 920819 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:21:25 WARNING]   [hist] 新浪 920819 失败: KeyError: 'date'
+[01:21:25 ERROR]   [hist] 920819 所有数据源均失败
+[01:21:25 WARNING]   [hist] 东财 920821 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:21:26 WARNING]   [hist] 新浪 920821 失败: KeyError: 'date'
+[01:21:26 ERROR]   [hist] 920821 所有数据源均失败
+[01:21:26 WARNING]   [hist] 东财 920826 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:21:27 WARNING]   [hist] 新浪 920826 失败: KeyError: 'date'
+[01:21:27 ERROR]   [hist] 920826 所有数据源均失败
+[01:21:27 WARNING]   [hist] 东财 920832 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:21:28 WARNING]   [hist] 新浪 920832 失败: KeyError: 'date'
+[01:21:28 ERROR]   [hist] 920832 所有数据源均失败
+[01:21:28 WARNING]   [hist] 东财 920833 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:21:29 WARNING]   [hist] 新浪 920833 失败: KeyError: 'date'
+[01:21:29 ERROR]   [hist] 920833 所有数据源均失败
+[01:21:29 WARNING]   [hist] 东财 920834 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:21:30 WARNING]   [hist] 新浪 920834 失败: KeyError: 'date'
+[01:21:30 ERROR]   [hist] 920834 所有数据源均失败
+[01:21:30 WARNING]   [hist] 东财 920837 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:21:31 WARNING]   [hist] 新浪 920837 失败: KeyError: 'date'
+[01:21:31 ERROR]   [hist] 920837 所有数据源均失败
+[01:21:31 WARNING]   [hist] 东财 920839 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:21:32 WARNING]   [hist] 新浪 920839 失败: KeyError: 'date'
+[01:21:32 ERROR]   [hist] 920839 所有数据源均失败
+[01:21:32 WARNING]   [hist] 东财 920855 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:21:33 WARNING]   [hist] 新浪 920855 失败: KeyError: 'date'
+[01:21:33 ERROR]   [hist] 920855 所有数据源均失败
+[01:21:33 WARNING]   [hist] 东财 920856 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:21:34 WARNING]   [hist] 新浪 920856 失败: KeyError: 'date'
+[01:21:34 ERROR]   [hist] 920856 所有数据源均失败
+[01:21:34 WARNING]   [hist] 东财 920857 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:21:35 WARNING]   [hist] 新浪 920857 失败: KeyError: 'date'
+[01:21:35 ERROR]   [hist] 920857 所有数据源均失败
+[01:21:35 WARNING]   [hist] 东财 920866 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:21:36 WARNING]   [hist] 新浪 920866 失败: KeyError: 'date'
+[01:21:36 ERROR]   [hist] 920866 所有数据源均失败
+[01:21:36 WARNING]   [hist] 东财 920870 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:21:37 WARNING]   [hist] 新浪 920870 失败: KeyError: 'date'
+[01:21:37 ERROR]   [hist] 920870 所有数据源均失败
+[01:21:37 WARNING]   [hist] 东财 920871 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:21:38 WARNING]   [hist] 新浪 920871 失败: KeyError: 'date'
+[01:21:38 ERROR]   [hist] 920871 所有数据源均失败
+[01:21:38 WARNING]   [hist] 东财 920873 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:21:39 WARNING]   [hist] 新浪 920873 失败: KeyError: 'date'
+[01:21:39 ERROR]   [hist] 920873 所有数据源均失败
+[01:21:39 WARNING]   [hist] 东财 920876 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:21:40 WARNING]   [hist] 新浪 920876 失败: KeyError: 'date'
+[01:21:40 ERROR]   [hist] 920876 所有数据源均失败
+[01:21:40 WARNING]   [hist] 东财 920879 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:21:41 WARNING]   [hist] 新浪 920879 失败: KeyError: 'date'
+[01:21:41 ERROR]   [hist] 920879 所有数据源均失败
+[01:21:41 WARNING]   [hist] 东财 920885 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:21:42 WARNING]   [hist] 新浪 920885 失败: KeyError: 'date'
+[01:21:42 ERROR]   [hist] 920885 所有数据源均失败
+[01:21:42 WARNING]   [hist] 东财 920892 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:21:43 WARNING]   [hist] 新浪 920892 失败: KeyError: 'date'
+[01:21:43 ERROR]   [hist] 920892 所有数据源均失败
+[01:21:43 WARNING]   [hist] 东财 920895 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:21:44 WARNING]   [hist] 新浪 920895 失败: KeyError: 'date'
+[01:21:44 ERROR]   [hist] 920895 所有数据源均失败
+[01:21:44 WARNING]   [hist] 东财 920896 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:21:45 WARNING]   [hist] 新浪 920896 失败: KeyError: 'date'
+[01:21:45 ERROR]   [hist] 920896 所有数据源均失败
+[01:21:45 WARNING]   [hist] 东财 920906 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:21:46 WARNING]   [hist] 新浪 920906 失败: KeyError: 'date'
+[01:21:46 ERROR]   [hist] 920906 所有数据源均失败
+[01:21:46 WARNING]   [hist] 东财 920914 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:21:47 WARNING]   [hist] 新浪 920914 失败: KeyError: 'date'
+[01:21:47 ERROR]   [hist] 920914 所有数据源均失败
+[01:21:47 WARNING]   [hist] 东财 920924 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:21:48 WARNING]   [hist] 新浪 920924 失败: KeyError: 'date'
+[01:21:48 ERROR]   [hist] 920924 所有数据源均失败
+[01:21:48 WARNING]   [hist] 东财 920925 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:21:49 WARNING]   [hist] 新浪 920925 失败: KeyError: 'date'
+[01:21:49 ERROR]   [hist] 920925 所有数据源均失败
+[01:21:49 WARNING]   [hist] 东财 920926 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:21:50 WARNING]   [hist] 新浪 920926 失败: KeyError: 'date'
+[01:21:50 ERROR]   [hist] 920926 所有数据源均失败
+[01:21:50 WARNING]   [hist] 东财 920931 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:21:51 WARNING]   [hist] 新浪 920931 失败: KeyError: 'date'
+[01:21:51 ERROR]   [hist] 920931 所有数据源均失败
+[01:21:51 WARNING]   [hist] 东财 920932 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:21:52 WARNING]   [hist] 新浪 920932 失败: KeyError: 'date'
+[01:21:52 ERROR]   [hist] 920932 所有数据源均失败
+[01:21:52 WARNING]   [hist] 东财 920942 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:21:53 WARNING]   [hist] 新浪 920942 失败: KeyError: 'date'
+[01:21:53 ERROR]   [hist] 920942 所有数据源均失败
+[01:21:53 WARNING]   [hist] 东财 920943 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:21:54 WARNING]   [hist] 新浪 920943 失败: KeyError: 'date'
+[01:21:54 ERROR]   [hist] 920943 所有数据源均失败
+[01:21:54 WARNING]   [hist] 东财 920946 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:21:55 WARNING]   [hist] 新浪 920946 失败: KeyError: 'date'
+[01:21:55 ERROR]   [hist] 920946 所有数据源均失败
+[01:21:55 WARNING]   [hist] 东财 920950 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:21:56 WARNING]   [hist] 新浪 920950 失败: KeyError: 'date'
+[01:21:56 ERROR]   [hist] 920950 所有数据源均失败
+[01:21:56 WARNING]   [hist] 东财 920953 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:21:57 WARNING]   [hist] 新浪 920953 失败: KeyError: 'date'
+[01:21:57 ERROR]   [hist] 920953 所有数据源均失败
+[01:21:57 WARNING]   [hist] 东财 920957 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:21:58 WARNING]   [hist] 新浪 920957 失败: KeyError: 'date'
+[01:21:58 ERROR]   [hist] 920957 所有数据源均失败
+[01:21:58 WARNING]   [hist] 东财 920961 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:21:59 WARNING]   [hist] 新浪 920961 失败: KeyError: 'date'
+[01:21:59 ERROR]   [hist] 920961 所有数据源均失败
+[01:21:59 WARNING]   [hist] 东财 920964 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:22:00 WARNING]   [hist] 新浪 920964 失败: KeyError: 'date'
+[01:22:00 ERROR]   [hist] 920964 所有数据源均失败
+[01:22:00 WARNING]   [hist] 东财 920970 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:22:01 WARNING]   [hist] 新浪 920970 失败: KeyError: 'date'
+[01:22:01 ERROR]   [hist] 920970 所有数据源均失败
+[01:22:01 WARNING]   [hist] 东财 920971 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:22:02 WARNING]   [hist] 新浪 920971 失败: KeyError: 'date'
+[01:22:02 ERROR]   [hist] 920971 所有数据源均失败
+[01:22:02 WARNING]   [hist] 东财 920974 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:22:03 WARNING]   [hist] 新浪 920974 失败: KeyError: 'date'
+[01:22:03 ERROR]   [hist] 920974 所有数据源均失败
+[01:22:03 WARNING]   [hist] 东财 920976 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:22:04 WARNING]   [hist] 新浪 920976 失败: KeyError: 'date'
+[01:22:04 ERROR]   [hist] 920976 所有数据源均失败
+[01:22:04 WARNING]   [hist] 东财 920978 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:22:05 WARNING]   [hist] 新浪 920978 失败: KeyError: 'date'
+[01:22:05 ERROR]   [hist] 920978 所有数据源均失败
+[01:22:05 WARNING]   [hist] 东财 920981 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:22:06 WARNING]   [hist] 新浪 920981 失败: KeyError: 'date'
+[01:22:06 ERROR]   [hist] 920981 所有数据源均失败
+[01:22:06 WARNING]   [hist] 东财 920982 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:22:07 WARNING]   [hist] 新浪 920982 失败: KeyError: 'date'
+[01:22:07 ERROR]   [hist] 920982 所有数据源均失败
+[01:22:07 WARNING]   [hist] 东财 920985 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:22:08 WARNING]   [hist] 新浪 920985 失败: KeyError: 'date'
+[01:22:08 ERROR]   [hist] 920985 所有数据源均失败
+[01:22:08 WARNING]   [hist] 东财 920992 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:22:09 WARNING]   [hist] 新浪 920992 失败: KeyError: 'date'
+[01:22:09 ERROR]   [hist] 920992 所有数据源均失败
+[01:22:09 WARNING]   [hist] 东财 600004 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:22:10 WARNING]   [hist] 东财 600006 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:22:11 WARNING]   [hist] 东财 600007 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:22:13 WARNING]   [hist] 东财 600008 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:22:14 WARNING]   [hist] 东财 600009 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:22:15 WARNING]   [hist] 东财 600010 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:22:35 WARNING]   [hist] 新浪 600010 失败: ConnectionError: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 1
+[01:22:35 ERROR]   [hist] 600010 所有数据源均失败
+[01:22:35 WARNING]   [hist] 东财 600011 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[01:22:36 WARNING]   [hist] 东财 600012 失败: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without

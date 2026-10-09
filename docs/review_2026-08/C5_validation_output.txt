@@ -1,0 +1,24 @@
+== 1. stop-loss base = T+1 open price ==
+  [PASS] 1a T+1 caliber: NOT stopped at -11.6% (> -15%): w(A,d2)=0.333, sell_log=[]
+  [PASS] 1a close caliber (legacy fallback): stopped at -16% (<= -15%): w(A,d2)=0.000, reason=stop_loss(-16.0%)
+  [PASS] 1b T+1 caliber: stopped at -15.8% (<= -15%): w(A,d2)=0.000, reason=stop_loss(-15.8%)
+  [PASS] 1c suspended on T+1: entry NaN -> stop-loss paused (no false kill): w(A,d2)=0.333 (px 8.0 = -50% vs entry NaN)
+  [PASS] 1d entry price: exec table T+1 open preferred: 9.5
+  [PASS] 1d entry price: fallback to signal-day close (close table): 10.0
+  [PASS] 1d entry price: missing code in exec table -> NaN: NaN
+== 2. keep_rank = top_n, decay outside top_n ==
+  [PASS] 2a SellRules has no independent keep_rank param: 
+  [PASS] 2a SellRules fields: SellRules(hold_months=6, stop_loss=-0.15, max_rebuy_gap=3)
+  [PASS] 2b rank 35 (outside top 30, inside old keep_rank 60) -> signal_decay: [{'date': Timestamp('2024-02-29 00:00:00'), 'code': '000100', 'reason': 'signal_decay', 'cooldown': 3}]
+  [PASS] 2b sold via cooldown path (no weight-zero bypass): w(000100,d2)=0.0
+  [PASS] 2b cooldown blocks rebuy next month (rank 1 but cooling): w(000100,d3)=0.0
+  [PASS] 2c invariant: every disappeared position has a sell_log record: 12 periods scanned, 90 sell events, 0 unrecorded
+== 3. weight scaling when candidates < top_n ==
+  [PASS] 3a 2024-01-31: 10 candidates -> w = 1/10, sum = 1.0: w=[0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1], sum=1.0000
+  [PASS] 3a 2024-02-29: 10 candidates -> w = 1/10, sum = 1.0: w=[0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1], sum=1.0000
+  [PASS] 3a 2024-03-31: 8 candidates -> w = 1/8, sum = 1.0: w=[0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125], sum=1.0000
+  [PASS] 3a 2024-04-30: 10 candidates -> w = 1/10, sum = 1.0: w=[0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1], sum=1.0000
+  [PASS] 3b all candidates in cooldown -> empty period, sum = 0.0: sum(d3)=0.0000, no crash
+  [PASS] 3c backward compat: close-price table call still works: (2, 3)
+
+===== C5 VALIDATION RESULT: 19 PASS / 0 FAIL =====

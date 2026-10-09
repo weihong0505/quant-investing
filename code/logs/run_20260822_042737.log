@@ -1,0 +1,16 @@
+[04:27:37 INFO] ======================================================================
+[04:27:37 INFO] 端到端回测管线启动 strategy=mom_turn_csi300 universe=csi300 start=20190101 end=20260822 top_n=20
+[04:27:37 INFO] 日志: logs/run_20260822_042737.log
+[04:27:37 INFO] --- Stage 1a: 股票池与退市名单 ---
+[04:27:59 WARNING]   [池] index_stock_cons 失败: ConnectionError: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 1, 回退 spot 前300
+[04:27:59 WARNING] [池] 回退方案: spot 顺序取 5210 只
+[04:28:03 INFO] [退市] 沪市终止上市公司: 159 家
+[04:28:03 INFO] [退市] 深市终止上市公司: 208 家
+[04:28:03 INFO] [池] 最终试点池 5210 只 + 退市验证 2 只: ['600401', '002450']
+[04:28:03 INFO] --- Stage 1d: ETF 基准 ---
+[04:28:04 INFO] [基准] 510300: 源=sina 复权=raw 行数=3461
+[04:28:04 INFO] [基准] 510500: 源=sina 复权=raw 行数=3264
+[04:28:04 INFO] [日历] 交易日历 1853 天 (2019-01-02~2026-08-21)
+[04:28:04 INFO] --- Stage 1b: 个股历史行情 (东财→新浪降级) ---
+[04:28:05 WARNING] [降级] 东财 stock_zh_a_hist 失败(ConnectionError), 后续个股历史全部直连新浪: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[04:29:41 INFO] [行情] 25/5212 raw=25 hfq=25 耗时 96s 均速 3.86s/只

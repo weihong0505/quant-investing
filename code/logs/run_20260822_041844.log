@@ -1,0 +1,37 @@
+[04:18:44 INFO] ======================================================================
+[04:18:44 INFO] 端到端回测管线启动 strategy=smoke_mom_turn universe=csi300 start=20190101 end=20260822 top_n=4
+[04:18:44 INFO] 日志: logs/run_20260822_041844.log
+[04:18:44 INFO] --- Stage 1a: 股票池与退市名单 ---
+[04:18:47 INFO] [池] CSI300 成分股: 300 只 (新浪 index_stock_cons)
+[04:18:51 INFO] [退市] 沪市终止上市公司: 159 家
+[04:18:51 INFO] [退市] 深市终止上市公司: 208 家
+[04:18:51 INFO] [池] 最终试点池 8 只 + 退市验证 2 只: ['600401', '002450']
+[04:18:51 INFO] --- Stage 1d: ETF 基准 ---
+[04:18:52 WARNING]   [bench] 新浪 510300 失败: KeyError: "['turnover'] not in index"
+[04:19:00 INFO] [基准] 510300: 源=tencent 复权=raw 行数=1853
+[04:19:01 WARNING]   [bench] 新浪 510500 失败: KeyError: "['turnover'] not in index"
+[04:19:21 WARNING]   [bench] 腾讯 510500 失败: ConnectionError: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 1
+[04:19:21 ERROR] [基准] 510500: 全部数据源失败
+[04:19:21 INFO] [日历] 交易日历 1853 天 (2019-01-02~2026-08-21)
+[04:19:21 INFO] --- Stage 1b: 个股历史行情 (东财→新浪降级) ---
+[04:19:22 WARNING] [降级] 东财 stock_zh_a_hist 失败(ConnectionError), 后续个股历史全部直连新浪: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without
+[04:20:54 INFO] [行情] 10/10 raw=8 hfq=8 耗时 93s 均速 9.32s/只
+[04:21:01 INFO] [退市] 600401 腾讯源 30 行
+[04:21:21 INFO] [退市] 002450 腾讯源 151 行
+[04:21:21 INFO] [行情] 完成: raw 8/10, hfq 8/10
+[04:21:21 INFO] [降级] 东财断路器状态: 打开(已跳过东财)
+[04:21:21 INFO] --- Stage 1c: 总市值 (腾讯 qt) ---
+[04:21:24 INFO] [qt] 腾讯实时行情: 8/8 只有效
+[04:21:24 INFO] --- Stage 1e: 财务数据(缓存) ---
+[04:22:05 INFO] [财务] yjbb 缓存 2 期: 20260331, 20260630
+[04:22:05 INFO] --- 面板构建 ---
+[04:22:05 INFO] [市值] 总股本×收盘估算: 8/8 只有市值基准
+[04:22:05 INFO] [面板] 8 只入面板, 交易日 1853, 市值基准 1853 天
+[04:22:05 INFO] --- Stage 2: 因子与信号 ---
+[04:22:05 INFO] [因子] 月度因子覆盖率: MOM 99.0% / TURN 100.0% / SCORE 99.0% (均值)
+[04:22:05 INFO] [信号] 调仓期数 12, 每期持仓数 4(中位), 卖出事件 15
+[04:22:05 INFO] --- Stage 3: 引擎回测 ---
+[04:22:05 INFO] [引擎] 回测完成 0.1s, 调仓 12 期, 成交 43 笔, 净值点数 12
+[04:22:05 INFO] [绩效] annual_return=1.4828; annual_vol=0.7170; sharpe=2.0679; max_drawdown=-0.3574; calmar=4.1485; win_rate=0.7273; excess_annual_return=nan; excess_sharpe=1.7922; relative_drawdown=-0.3069; tracking_error=0.6412; information_ratio=nan
+[04:22:05 INFO] [基准] 510300 年化 5.13%, 超额年化 nan%, 相对回撤 -30.69%, IR nan
+[04:22:05 INFO] --- 退市股验证 ---

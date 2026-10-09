@@ -1,0 +1,12 @@
+[05:17:03 INFO] ==============================================================================
+[05:17:03 INFO] [启动] A股多因子价值+质量选股系统 v2  启动时间=2026-08-22 05:17:03  top_n=5
+[05:17:03 INFO] [日志] 日志文件: G:\quant-investing\code\logs\run_20260822_051703.log
+[05:17:03 INFO] [缓存] 财务数据缓存命中: yjbb 8/8 期, zcfz 4/4 期
+[05:17:03 ERROR] [异常] 主流程失败，异常堆栈如下（multi_factor_value.run_full_pipeline）
+Traceback (most recent call last):
+  File "G:\quant-investing/code\multi_factor_value.py", line 422, in run_full_pipeline
+    yjbb, zcfz = get_quality_data()
+                 ~~~~~~~~~~~~~~~~^^
+  File "<string>", line 8, in _boom
+    raise RuntimeError('SIMULATED_FAILURE_XYZ')
+RuntimeError: SIMULATED_FAILURE_XYZ

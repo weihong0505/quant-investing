@@ -1,0 +1,3 @@
+[01:15:09 INFO] [启动] run.py 入口开始 mode=VALUE(价值投资) top_n=12 experimental=False
+[01:15:10 INFO] [拒绝] 生产开关 fail-closed: [FAIL-CLOSED] 价值投资管线拒绝运行：4 个新估值因子权重（PE_PCTL/PB_PCTL/DY/FCF_YIELD）未经 v3 统计检验（P2.5 生产开关）。
+  如需实验性运行（仅供研究/检验，禁止实盘），请显式传入 experimental=True（run.py 加 --exp

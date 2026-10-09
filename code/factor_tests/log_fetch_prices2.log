@@ -1,0 +1,7 @@
+[universe] 5210 stocks
+[FAIL] sh600239: JSONDecodeError Expecting value: line 1 column 1 (char 0)
+[FAIL] sh600228: JSONDecodeError Expecting value: line 1 column 1 (char 0)
+[FAIL] sh600268: JSONDecodeError Expecting value: line 1 column 1 (char 0)
+[FAIL] sh600271: JSONDecodeError Expecting value: line 1 column 1 (char 0)
+[FAIL] sh600280: JSONDecodeError Expecting value: line 1 column 1 (char 0)
+[FAIL] sh600278: JSONDecodeError Expecting value: line 1 column 1 (char 0)

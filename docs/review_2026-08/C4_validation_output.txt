@@ -1,0 +1,121 @@
+== Case 1: cost functions ==
+  [PASS] sell 100k before stamp cut: 226.0000 == 226.0000
+  [PASS] sell 100k after stamp cut (Íò5): 176.0000 == 176.0000
+  [PASS] min commission 5 yuan: 10.0500 == 10.0500
+  [PASS] stamp before: 0.0010 == 0.0010
+  [PASS] stamp after: 0.0005 == 0.0005
+  [PASS] slippage micro 30bp: 30.0000 == 30.0000
+== Case 2: limit price matrix ==
+  [PASS] main up: 11.0000 == 11.0000
+  [PASS] main down: 9.0000 == 9.0000
+  [PASS] chinext up 20%: 12.0000 == 12.0000
+  [PASS] chinext up 10% (pre-2020): 11.0000 == 11.0000
+  [PASS] ST up 5%: 10.5000 == 10.5000
+== Case 3: lot rounding + T+1 + cash buffer ==
+  [PASS] 000001 shares 3300: 3300.0000 == 3300.0000
+  [PASS] 000002 shares 600: 600.0000 == 600.0000
+  [PASS] 000003 shares 300: 300.0000 == 300.0000
+  [PASS] first nav + costs = initial: 100000.0000 == 100000.0000
+  [PASS] 100% position buy succeeds (cash buffer): 1.0000 == 1.0000
+== Case 4: limit-up 6 consecutive days -> abandon ==
+  [PASS] limit-up streak: no buy (abandoned after 5d): 0.0000 == 0.0000
+== Case 4b: limit-up 1 day then open -> buy on day 2 ==
+  [PASS] limit-up day1 then bought day2: 1.0000 == 1.0000
+  [PASS] bought on exec+1: 2024-04-02 == 2024-04-02
+== Case 5: suspension 2 days -> buy on day 3 ==
+  [PASS] suspended 2d then bought: 1.0000 == 1.0000
+  [PASS] bought on exec+2: 2024-04-03 == 2024-04-03
+== Case 6: share bonus (10ËÍ10) + cash dividend ==
+  [PASS] April-end nav after bonus+dividend: 119774.6300 == 119774.6300
+  [PASS] final nav > initial (dividend+bonus effect): 1.0000 == 1.0000
+== Case 7: odd-lot sell all ==
+  [PASS] sell all executed: 1.0000 == 1.0000
+  [PASS] sell all shares == buy shares (odd lot allowed): 9900.0000 == 9900.0000
+== Case 8: ex-dividend (raw -2%, hfq flat) -> no return jump ==
+  [PASS] ex-div day daily hfq return = 0 (no jump): 0.0000 == 0.0000
+  [PASS] ex-div month composed return ~0 (no jump): -0.0012 == 0.0000
+  [PASS] hfq monthly identical with/without cash_div: 0.0000 == 0.0000
+  [PASS] composed nav_hfq end = initial - total costs (no div jump): 99875.2600 == 99875.2600
+== Case 9: new-IPO limit-free whitelist (star 688001) ==
+  [PASS] new-IPO day2 +100% open: buy executed: 1.0000 == 1.0000
+  [PASS] new-IPO buy date = listing day+1: 2024-04-01 == 2024-04-01
+  [PASS] new-IPO buy price 20.0: 20.0000 == 20.0000
+  [PASS] new-IPO buy shares 4900 (cash buffer): 4900.0000 == 4900.0000
+  [PASS] day-7 +20% limit-up: buy abandoned (whitelist expired): 0.0000 == 0.0000
+== Case 9c: resume-listing day sell + board matrix ==
+  [PASS] resume-day sell executed (limit-free): 1.0000 == 1.0000
+  [PASS] resume-day sell price 8.0 (limit-down, whitelisted): 8.0000 == 8.0000
+  [PASS] resume-day sell shares 9900: 9900.0000 == 9900.0000
+  [PASS] resume-day sell date 2024-05-03: 2024-05-03 == 2024-05-03
+  [PASS] without whitelist: resume-day sell blocked by limit-down: 0.0000 == 0.0000
+  [PASS] main post-2023-02-17 day2 free: True == True
+  [PASS] chinext post-2020-08-24 day2 free: True == True
+  [PASS] main listed 3/1 at 4/1 (day22) not free: False == False
+  [PASS] chinext pre-reform day2 NOT free: False == False
+  [PASS] chinext post-reform day2 free: True == True
+  [PASS] star day2 free: True == True
+  [PASS] main pre-2023-02-17 day2 NOT free: False == False
+== Case 10: resumption gap >20% -> abandon ==
+  [PASS] resumption +25% gap: buy abandoned: 0.0000 == 0.0000
+  [PASS] resumption +10% gap: buy executed: 1.0000 == 1.0000
+  [PASS] resumption buy date = resume day: 2024-04-03 == 2024-04-03
+  [PASS] resumption buy price 11.0: 11.0000 == 11.0000
+== Case 11: benchmark excess metrics ==
+  [PASS] excess annual (mid-dip bench cancels): 0.0000 == 0.0000
+  [PASS] relative drawdown = -5% (hand): -0.0500 == -0.0500
+  [PASS] excess sharpe = mean/std*sqrt12: -0.0479 == -0.0479
+  [PASS] tracking error = std*sqrt12: 0.1124 == 0.1124
+  [PASS] info ratio = excess ann / TE: 0.0000 == 0.0000
+  [PASS] excess annual vs flat bench = own annual: -0.0026 == -0.0026
+  [PASS] relative dd vs flat bench = own mdd: -0.0012 == -0.0012
+  [PASS] excess sharpe vs flat bench = monthly sharpe: -1.4142 == -1.4142
+  [PASS] annual return uses actual date span: 1.0009 == 1.0009
+== Case 12: positions_history + actual turnover ==
+  [PASS] positions_history not empty: 6.0000 == 6.0000
+  [PASS] snapshot dates == nav month-end dates: True == True
+  [PASS] month1 snapshot A=5000 (hand): 5000.0000 == 5000.0000
+  [PASS] month1 snapshot B=4900 (hand, cash buffer): 4900.0000 == 4900.0000
+  [PASS] month2 snapshot B=9900 (hand: 4900+5000): 9900.0000 == 9900.0000
+  [PASS] month2 snapshot A=0 (sold all): 0.0000 == 0.0000
+  [PASS] positions_history == trades (2024-04-30 000001): 5000.0000 == 5000.0000
+  [PASS] positions_history == trades (2024-04-30 000002): 4900.0000 == 4900.0000
+  [PASS] positions_history == trades (2024-05-31 000001): 0.0000 == 0.0000
+  [PASS] positions_history == trades (2024-05-31 000002): 9900.0000 == 9900.0000
+  [PASS] positions_history == trades (2024-06-28 000001): 9900.0000 == 9900.0000
+  [PASS] positions_history == trades (2024-06-28 000002): 0.0000 == 0.0000
+  [PASS] positions_history == trades (2024-07-31 000001): 5000.0000 == 5000.0000
+  [PASS] positions_history == trades (2024-07-31 000002): 4900.0000 == 4900.0000
+  [PASS] positions_history == trades (2024-08-30 000001): 0.0000 == 0.0000
+  [PASS] positions_history == trades (2024-08-30 000002): 0.0000 == 0.0000
+  [PASS] positions_history == trades (2024-09-26 000001): 0.0000 == 0.0000
+  [PASS] positions_history == trades (2024-09-26 000002): 0.0000 == 0.0000
+  [PASS] actual_turnover not empty: 6.0000 == 6.0000
+  [PASS] actual turnover 2024-04-30: 0.9912 == 0.9912
+  [PASS] actual turnover 2024-05-31: 1.0028 == 1.0028
+  [PASS] actual turnover 2024-06-28: 1.9914 == 1.9914
+  [PASS] actual turnover 2024-07-31: 0.9871 == 0.9871
+  [PASS] actual turnover 2024-08-30: 0.9990 == 0.9990
+  [PASS] actual turnover 2024-09-26: 0.0000 == 0.0000
+  [PASS] annualized turnover = 12 x monthly mean: 11.9431 == 11.9431
+  [PASS] target turnover kept as control column [1,1,2,1,1,0]: [np.float64(1.0), np.float64(1.0), np.float64(2.0), np.float64(1.0), np.float64(1.0), np.float64(0.0)] == [1.0, 1.0, 2.0, 1.0, 1.0, 0.0]
+  [PASS] target vs actual differ (target is not actual): True == True
+== Case 13: missing mcap 30bp + benchmark constant growth ==
+  [PASS] mcap missing: buy cost uses 30bp slippage: 322.7400 == 322.7400
+  [PASS] mcap missing: verbose warning printed: True == True
+  [PASS] BacktestResult carries benchmark_nav: True == True
+  [PASS] benchmark_annual_return (hand): 0.1319 == 0.1319
+  [PASS] excess annual = strat_ar - bench_ar (hand): -0.1371 == -0.1371
+  [PASS] relative drawdown (hand): -0.0306 == -0.0306
+  [PASS] excess sharpe (hand): -50.1000 == -50.1000
+== Case 14: actual turnover with abandoned rebalance ==
+  [PASS] turnover: April buy only: 1.0000 == 1.0000
+  [PASS] turnover: May trades = 0 (both abandoned): 0.0000 == 0.0000
+  [PASS] actual turnover April = 99000/nav (hand): 0.9912 == 0.9912
+  [PASS] actual turnover May = 0 < target 2.0 (hand): True == True
+  [PASS] target turnover May = 2.0 (control col): 2.0000 == 2.0000
+  [PASS] annualized turnover = 12 x monthly mean (hand): 5.9474 == 5.9474
+  [PASS] pos history month1 A=9900: 9900.0000 == 9900.0000
+  [PASS] pos history month2 A=9900 (sell failed): 9900.0000 == 9900.0000
+  [PASS] pos history vs trades: share conservation: 9900.0000 == 9900.0000
+
+===== GOLDEN SAMPLE RESULT: 103 PASS / 0 FAIL =====
