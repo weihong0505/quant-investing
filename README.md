@@ -104,6 +104,12 @@ quant.db   质量/价值/    加权评分            集中持仓      双口径
 
 ---
 
+> 📎 这个库里踩过的**工具层与流程层**的坑，已提炼成独立文档库：
+> [**ai-collaboration-notes**](https://github.com/weihong0505/ai-collaboration-notes)
+> （含「AI 工具失败模式目录」与 16 个真实案例）
+
+---
+
 ## 这个库的方法论只有三条
 
 1. **SOP 优先于执行** —— 遇新问题先完善 SOP 再继续，SOP 是唯一事实源
