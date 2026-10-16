@@ -1,0 +1,17 @@
+[
+  {
+    "factor": "BP",
+    "returncode": 0,
+    "stdout_tail": "[OK] report -> G:\\股市探究\\fullA-检验与回测\\output\\tests\\test_BP_20261009.md\n[OK] backfill row -> G:\\股市探究\\fullA-检验与回测\\output\\tests\\backfill_BP_20261009.md\n[RESULT] BP: 淘汰 (IC: ICIR=0.322 未过 0.5 或 signed NW-t=4.07<3.00; 分层: 多空 signed NW-t=1.47<2.0; PT MR p=0.4635>=0.05 单调性未达线; 三重稳健性未全过: 市值加权,)\n"
+  },
+  {
+    "factor": "ROE_TTM",
+    "returncode": 0,
+    "stdout_tail": "[OK] report -> G:\\股市探究\\fullA-检验与回测\\output\\tests\\test_ROE_TTM_20261009.md\n[OK] backfill row -> G:\\股市探究\\fullA-检验与回测\\output\\tests\\backfill_ROE_TTM_20261009.md\n[RESULT] ROE_TTM: 淘汰 (IC: ICIR=0.122<0.3 或 |mean IC|=0.0166<0.02; 高波动月 条件 IC=-0.0123<0 (硬指标); 分层: 多空 signed NW-t=0.80<2.0; PT MR p=0.3778>=0.0)\n"
+  },
+  {
+    "factor": "GPM",
+    "returncode": 0,
+    "stdout_tail": "[OK] report -> G:\\股市探究\\fullA-检验与回测\\output\\tests\\test_GPM_20261009.md\n[OK] backfill row -> G:\\股市探究\\fullA-检验与回测\\output\\tests\\backfill_GPM_20261009.md\n[RESULT] GPM: 淘汰 (IC: ICIR=0.059<0.3 或 |mean IC|=0.0054<0.02; 分层: 多空 signed NW-t=0.45<2.0; PT MR p=0.8291>=0.05 单调性未达线; 三重稳健性未全过: 市值加权, 微盘)\n"
+  }
+]

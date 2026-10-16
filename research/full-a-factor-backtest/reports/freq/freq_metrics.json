@@ -1,0 +1,78 @@
+{
+  "EP+BP（剔除冗余后）": {
+    "月频": {
+      "freq": "月频",
+      "rebalance_every_months": 1,
+      "periods": 116,
+      "annual_gross": 0.050476177102442635,
+      "annual_cost": 0.01762674733710256,
+      "annual_net": 0.03284942976534008,
+      "sharpe_net": 0.5555045072097486,
+      "annual_turnover": 3.445433760108297,
+      "cost_to_gross": 0.34920923788124136,
+      "net_positive": true
+    },
+    "季频": {
+      "freq": "季频",
+      "rebalance_every_months": 3,
+      "periods": 116,
+      "annual_gross": 0.014197148934239397,
+      "annual_cost": 0.003615055467278921,
+      "annual_net": 0.010582093466960475,
+      "sharpe_net": 0.3136188632787327,
+      "annual_turnover": 2.1335675525112423,
+      "cost_to_gross": 0.25463249586404335,
+      "net_positive": true
+    },
+    "半年频": {
+      "freq": "半年频",
+      "rebalance_every_months": 6,
+      "periods": 116,
+      "annual_gross": 0.004263075076168692,
+      "annual_cost": 0.001318333149620013,
+      "annual_net": 0.0029447419265486783,
+      "sharpe_net": 0.13167849661240502,
+      "annual_turnover": 1.5611470385683905,
+      "cost_to_gross": 0.3092446475995034,
+      "net_positive": true
+    }
+  },
+  "EP+BP+ROE+GPM（原 4 因子）": {
+    "月频": {
+      "freq": "月频",
+      "rebalance_every_months": 1,
+      "periods": 116,
+      "annual_gross": 0.050832518994409825,
+      "annual_cost": 0.017781437675143296,
+      "annual_net": 0.03305108131926653,
+      "sharpe_net": 0.5860013731027832,
+      "annual_turnover": 3.4595440483407214,
+      "cost_to_gross": 0.3498043777271546,
+      "net_positive": true
+    },
+    "季频": {
+      "freq": "季频",
+      "rebalance_every_months": 3,
+      "periods": 116,
+      "annual_gross": 0.015109125766354408,
+      "annual_cost": 0.003752654758061964,
+      "annual_net": 0.011356471008292447,
+      "sharpe_net": 0.3448047778544386,
+      "annual_turnover": 2.2037031065652664,
+      "cost_to_gross": 0.24837007885780674,
+      "net_positive": true
+    },
+    "半年频": {
+      "freq": "半年频",
+      "rebalance_every_months": 6,
+      "periods": 116,
+      "annual_gross": 0.003388892871372537,
+      "annual_cost": 0.0014227499755663105,
+      "annual_net": 0.0019661428958062275,
+      "sharpe_net": 0.09177062672275252,
+      "annual_turnover": 1.636774976170863,
+      "cost_to_gross": 0.41982736827856165,
+      "net_positive": true
+    }
+  }
+}

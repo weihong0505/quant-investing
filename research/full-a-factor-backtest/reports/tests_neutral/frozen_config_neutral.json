@@ -1,0 +1,26 @@
+{
+  "frozen_at": "2026-10-09T10:53:46.228624",
+  "wide_dir": "wide_n",
+  "neutralized": true,
+  "universe": "全 A（含退市股 361）；中性化样本 5,024 只（缺行业 155 只已排除）",
+  "panel": "data/panel_neutral.parquet",
+  "sample": "2017-01-31 ~ 2026-09-30",
+  "n_star": 4,
+  "oos_months": 24,
+  "signs": {
+    "ROE_TTM": 1,
+    "GPM": 1,
+    "EP": 1,
+    "BP": 1
+  },
+  "factors": [
+    "EP",
+    "BP",
+    "ROE_TTM",
+    "GPM"
+  ],
+  "pit_rule": "legal disclosure deadline",
+  "ttm_rule": "eps(nearest disclosed FY) + eps(YTD) - eps(prev-year same period)",
+  "neutral_rule": "行业内 winsorize(±3σ)+z-score，行业=申万一级，min_group=5 小行业回退全市场；金融股质量因子置 0（复用 multi_factor_value.winsorize_zscore/industry_zscore）",
+  "note": "配置在任何因子出结果前写死；registry 锁定符号未作任何改动"
+}

@@ -1,0 +1,27 @@
+{
+  "frozen_at": "2026-10-09T01:57:18.582703",
+  "universe": "5700 全 A（含退市股 361）",
+  "panel": "data/panel_fullA.parquet",
+  "sample": "2017-01-31 ~ 2026-09-30",
+  "n_star": 4,
+  "oos_months": 24,
+  "signs": {
+    "ROE_TTM": 1,
+    "GPM": 1,
+    "EP": 1,
+    "BP": 1
+  },
+  "factors": [
+    "BP",
+    "ROE_TTM",
+    "GPM"
+  ],
+  "pit_rule": "legal disclosure deadline",
+  "ttm_rule": "eps(nearest disclosed FY) + eps(YTD) - eps(prev-year same period)",
+  "data_version": {
+    "quarterly_fin": "212053 rows / 44 periods",
+    "prices": "hist_* raw+hfq 5219 codes each, last trade 2026-10-08",
+    "coverage": "87.7%(2017) ~ 94.1%(2025) of listed count"
+  },
+  "note": "配置在任何因子出结果前写死；registry 锁定符号未作任何改动"
+}
